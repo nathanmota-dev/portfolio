@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  darkMode: 'class',
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -16,8 +17,13 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      animation: {
+        moon: "moonGrow 0.2s linear 0.2s",
+        sun: "sunGrow 0.2s linear 0.2s",
+      },
+
     },
-  },
-  plugins: [],
+    plugins: [],
+  }
 };
 export default config;
