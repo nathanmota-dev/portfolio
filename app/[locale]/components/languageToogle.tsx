@@ -11,11 +11,11 @@ import {
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 
+import { Link, usePathname, useRouter } from "@/navigation"
+
 export function LanguageToggle() {
-    const handleLanguageChange = (language: string) => {
-        localStorage.setItem("language", language)
-        window.location.reload()
-    }
+
+    const pathname = usePathname()
 
     return (
         <DropdownMenu>
@@ -26,11 +26,15 @@ export function LanguageToggle() {
                 </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">
-                <DropdownMenuItem onClick={() => handleLanguageChange("pt")}>
-                    Português
+                <DropdownMenuItem>
+                    <Link href={pathname} locale="pt">
+                        Português
+                    </Link>
                 </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => handleLanguageChange("en")}>
-                    English
+                <DropdownMenuItem>
+                    <Link href={pathname} locale="en">
+                        English
+                    </Link>
                 </DropdownMenuItem>
             </DropdownMenuContent>
         </DropdownMenu>
