@@ -2,12 +2,15 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import logo from '../../public/logo.png';
+import logo from '../../../public/logo.png';
 import { LanguageToggle } from './languageToogle';
+import { useTranslations } from 'next-intl';
 
 export default function Navbar() {
     const [isClick, setIsClick] = useState(false);
     const [isLightTheme, setIsLightTheme] = useState(false);
+
+    const t = useTranslations("NavBar");
 
     useEffect(() => {
         const theme = localStorage.theme;
@@ -71,11 +74,11 @@ export default function Navbar() {
                         </div>
                         <div className='hidden md:block'>
                             <div className='ml-4 flex items-center space-x-4'>
-                                <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>Sobre mim</a>
-                                <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>Qualificações</a>
-                                <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>Projetos</a>
-                                <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>Habilidades</a>
-                                <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>Contato</a>
+                                <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a1")}</a>
+                                <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a2")}</a>
+                                <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a3")}</a>
+                                <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a4")}</a>
+                                <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a5")}</a>
                             </div>
                         </div>
                         <div className='md:hidden flex items-center'>
@@ -96,11 +99,11 @@ export default function Navbar() {
                 {isClick && (
                     <div className='md:hidden'>
                         <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3 text-center'>
-                            <a href="/" className='text-black dark:text-white block hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>Sobre mim</a>
-                            <a href="/" className='text-black dark:text-white block hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>Qualificações</a>
-                            <a href="/" className='text-black dark:text-white block hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>Projetos</a>
-                            <a href="/" className='text-black dark:text-white block hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>Habilidades</a>
-                            <a href="/" className='text-black dark:text-white block hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>Contato</a>
+                            <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a1")}</a>                            
+                            <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a2")}</a>
+                            <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a3")}</a>
+                            <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a4")}</a>
+                            <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a5")}</a>    
                         </div>
                     </div>
                 )}
