@@ -5,5 +5,12 @@
         "a3": "Projetos",
         "a4": "Habilidades",
         "a5": "Contato"
+    },
+    "Hero": {
+        "p": "Olá, meu nome é",
+        "h2": "Nathan Mota",
+        "text": "Sou um desenvolvedor Full Stack com mais de 1 ano de experiência. Apesar de atuar em todas as camadas do desenvolvimento web, tenho uma forte inclinação para o front-end. Gosto de solucionar problemas e estou sempre aberto a novas possibilidades futuras. Vamos construir algo incrível juntos?",
+        "button": "Entre em contato",
+        "rolar": "Rolar para baixo"
     }
 }

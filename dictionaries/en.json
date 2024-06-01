@@ -5,5 +5,12 @@
         "a3": "Projects",
         "a4": "Skills",
         "a5": "Contact"
+    },
+    "Hero": {
+        "p": "Hello, my name is",
+        "h2": "Nathan Mota",
+        "text": "I am a Full Stack developer from Brazil with over 1 year of experience. While I work across all layers of web development, I have a strong inclination towards front-end. I enjoy solving problems and am always open to new possibilities in the future. Let's build something amazing together!",
+        "button": "Contact me",
+        "rolar": "Scroll down"
     }
 }
