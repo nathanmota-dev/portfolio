@@ -22,6 +22,9 @@ const config = {
       fontFamily: {
         sans: ["var(--font-sans)", ...defaultTheme.fontFamily.sans],
       },
+      backgroundImage: {
+        'hero-image': "url('/images/hero-image.jpg')",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -56,6 +59,9 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+      },
+      boxShadow: {
+        'button': "0 0px 68px 7px rgba(5, 150, 105, 0.4)",
       },
       borderRadius: {
         lg: "var(--radius)",
