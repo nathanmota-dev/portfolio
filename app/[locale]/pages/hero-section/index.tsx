@@ -31,7 +31,7 @@ export default function HeroSection() {
     const t = useTranslations("Hero");
 
     return (
-        <section className="bg-white dark:bg-black w-full h-[91.5vh] flex flex-col justify-center items-center">
+        <section className="bg-white dark:bg-black w-full h-auto sm:h-[91.5vh] flex flex-col justify-center items-center pb-6">
             <div className="container flex items-center justify-between flex-col-reverse lg:flex-row mx-auto px-4">
                 <div className="w-full lg:max-w-[530px] text-center lg:text-left">
                     <p className="font-mono text-emerald-600 dark:text-emerald-400">{t("p")}</p>
@@ -74,7 +74,7 @@ export default function HeroSection() {
                     height={404}
                     src="/images/profile.jpg"
                     alt="Foto de perfil de Nathan Mota"
-                    className="w-[300px] h-[300px] lg:w-[420px] lg:h-[404px] mb-6 lg:mb-0 rounded-lg shadow-2xl object-cover"
+                    className="w-[300px] h-[300px] lg:w-[420px] lg:h-[404px] mb-6 lg:mb-0 rounded-lg shadow-2xl object-cover mt-6 sm:mt-0"
                 />
             </div>
 
