@@ -45,7 +45,7 @@ export default function Navbar() {
     };
 
     return (
-        <nav className="bg-white dark:bg-black border-b border-gray-200 dark:border-gray-700">
+        <nav className="bg-white dark:bg-black border-b border-gray-200 dark:border-gray-700 fixed w-full">
             <div>
                 <nav className="bg-white dark:bg-black">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 pg:px-8">
@@ -75,8 +75,8 @@ export default function Navbar() {
                             </div>
                             <div className='hidden md:block'>
                                 <div className='ml-4 flex items-center space-x-4'>
-                                    <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a1")}</a>
-                                    <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a2")}</a>
+                                    <a href="#about-section" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a1")}</a>
+                                    <a href="#projects-section" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a2")}</a>
                                     <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a3")}</a>
                                     <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a4")}</a>
                                     <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a5")}</a>

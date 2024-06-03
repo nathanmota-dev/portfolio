@@ -31,58 +31,61 @@ export default function HeroSection() {
     const t = useTranslations("Hero");
 
     return (
-        <section className="bg-white dark:bg-black w-full h-auto sm:h-[91.5vh] flex flex-col justify-center items-center pb-6">
-            <div className="container flex items-center justify-between flex-col-reverse lg:flex-row mx-auto px-4">
-                <div className="w-full lg:max-w-[530px] text-center lg:text-left">
-                    <p className="font-mono text-emerald-600 dark:text-emerald-400">{t("p")}</p>
-                    <h2 className="text-4xl font-medium mt-2">{t("h2")}</h2>
-                    <p className="text-gray-800 dark:text-gray-400 my-6 text-sm sm:text-base">
-                        {t("text")}
-                    </p>
+        <div>
+            <section className="bg-white dark:bg-black w-full h-auto sm:h-[90vh] flex flex-col justify-center items-center pb-6 sm:pb:0 pt-20 sm:pt-0">
+                <div className="container flex items-center justify-between flex-col-reverse lg:flex-row mx-auto px-4">
+                    <div className="w-full lg:max-w-[530px] text-center lg:text-left">
+                        <p className="font-mono text-emerald-600 dark:text-emerald-400">{t("p")}</p>
+                        <h2 className="text-4xl font-medium mt-2">{t("h2")}</h2>
+                        <p className="text-gray-800 dark:text-gray-400 my-6 text-sm sm:text-base">
+                            {t("text")}
+                        </p>
 
-                    <div className="flex flex-wrap gap-x-2 gap-y-3 lg:max-w-[340px] justify-center lg:justify-start">
-                        <TechBadge name="JavaScript" />
-                        <TechBadge name="TypeScript" />
-                        <TechBadge name="ReactJs" />
-                        <TechBadge name="NodeJs" />
-                        <TechBadge name="Express" />
-                        <TechBadge name="Next.js" />
-                    </div>
+                        <div className="flex flex-wrap gap-x-2 gap-y-3 lg:max-w-[340px] justify-center lg:justify-start">
+                            <TechBadge name="JavaScript" />
+                            <TechBadge name="TypeScript" />
+                            <TechBadge name="ReactJs" />
+                            <TechBadge name="NodeJs" />
+                            <TechBadge name="Express" />
+                            <TechBadge name="Next.js" />
+                        </div>
 
-                    <div className="mt-6 lg:mt-10 flex items-center sm:gap-5 flex-col sm:flex-row justify-center lg:justify-start">
-                        <Button className="w-max shadow-button flex items-center gap-2">
-                            {t("button")}
-                            <HiArrowNarrowRight size={18} />
-                        </Button>
+                        <div className="mt-6 lg:mt-10 flex items-center sm:gap-5 flex-col sm:flex-row justify-center lg:justify-start">
+                            <Button className="w-max shadow-button flex items-center gap-2">
+                                {t("button")}
+                                <HiArrowNarrowRight size={18} />
+                            </Button>
 
-                        <div className="text-2xl flex items-center gap-3 mt-4 sm:mt-0">
-                            {contacts.map((contact, index) => (
-                                <a
-                                    href={contact.url}
-                                    target="_blank"
-                                    key={`contact-${index}`}
-                                    className="text-gray-800 dark:text-gray-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
-                                >
-                                    {contact.icon}
-                                </a>
-                            ))}
+                            <div className="text-2xl flex items-center gap-3 mt-4 sm:mt-0">
+                                {contacts.map((contact, index) => (
+                                    <a
+                                        href={contact.url}
+                                        target="_blank"
+                                        key={`contact-${index}`}
+                                        className="text-gray-800 dark:text-gray-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+                                    >
+                                        {contact.icon}
+                                    </a>
+                                ))}
+                            </div>
                         </div>
                     </div>
+                    <Image
+                        width={420}
+                        height={404}
+                        src="/images/profile.jpg"
+                        alt="Foto de perfil de Nathan Mota"
+                        className="w-[300px] h-[300px] lg:w-[420px] lg:h-[404px] mb-6 lg:mb-0 rounded-lg shadow-2xl object-cover mt-6 sm:mt-0"
+                    />
                 </div>
-                <Image
-                    width={420}
-                    height={404}
-                    src="/images/profile.jpg"
-                    alt="Foto de perfil de Nathan Mota"
-                    className="w-[300px] h-[300px] lg:w-[420px] lg:h-[404px] mb-6 lg:mb-0 rounded-lg shadow-2xl object-cover mt-6 sm:mt-0"
-                />
+            </section>
+            <div className="h-auto sm:h-[10vh] pb-6 sm:pb-0 bg-white dark:bg-black w-full sm:text-2xl flex justify-center items-center gap-3 font-bold text-gray-800 dark:text-gray-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
+                <a className="flex" href="#about-section">
+                    <BiMouse />
+                    <h2 className="sm:text-lg">{t("rolar")}</h2>
+                    <FaRegArrowAltCircleDown />
+                </a>
             </div>
-
-            <div className="sm:text-2xl flex items-center gap-3 mt-6 sm:mt-48 font-bold text-gray-800 dark:text-gray-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
-                <BiMouse />
-                <h2 className="sm:text-lg">{t("rolar")}</h2>
-                <FaRegArrowAltCircleDown />
-            </div>
-        </section>
+        </div>
     )
 }
