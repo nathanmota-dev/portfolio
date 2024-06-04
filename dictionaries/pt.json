@@ -19,5 +19,13 @@
         "description2": "Atualmente, sou Desenvolvedor Full Stack e, embora atue em todas as camadas do desenvolvimento web, tenho uma forte inclinação para o Front-End, sempre buscando manter um alto padrão de qualidade de código.",
         "description3": "Além disso, possuo experiência em Gestão de Tráfego, Análise de Dados e Atividades Administrativas, áreas em que atuei por mais de dois anos. Estou sempre em busca de novos desafios e oportunidades para aprender e crescer como profissional.",
         "button": "Baixar CV"
+    },
+    "Projects": {
+        "title": "Meus Projetos",
+        "description": "Confira abaixo alguns projetos que desenvolvi na minha trajetória como desenvolvedor."
+    },
+    "Card": {
+        "name": "Meus Projetos",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aperiam a labore accusantium sed nisi impedit tempore, veritatis voluptatem eaque repellat qui quos voluptas ipsum similique in esse laboriosam fuga."
     }
 }
