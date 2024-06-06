@@ -80,10 +80,10 @@ export default function HeroSection() {
                 </div>
             </section>
             <div className="h-auto sm:h-[10vh] pb-6 sm:pb-0 bg-white dark:bg-black w-full sm:text-2xl flex justify-center items-center gap-3 font-bold text-gray-800 dark:text-gray-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
-                <a className="flex" href="#about-section">
-                    <BiMouse />
+                <a className="flex gap-x-2" href="#about-section">
+                    <BiMouse className="animate-bounce" />
                     <h2 className="sm:text-lg">{t("rolar")}</h2>
-                    <FaRegArrowAltCircleDown />
+                    <FaRegArrowAltCircleDown className="animate-bounce" />
                 </a>
             </div>
         </div>
