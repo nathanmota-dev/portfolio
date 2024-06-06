@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import logo from '../../../public/logo.png';
-import { LanguageToggle } from './languageToogle';
+import logo from '../../../../public/logo.png';
+import { LanguageToggle } from '../languageToogle';
 import { useTranslations } from 'next-intl';
 
 export default function Navbar() {

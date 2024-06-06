@@ -7,7 +7,7 @@ import { SkillsSection } from "./pages/skills-section";
 
 export default function Home() {
     return (
-        <div >
+        <div>
             <Navbar />
             <div id="hero-section">
                 <HeroSection />
@@ -24,7 +24,7 @@ export default function Home() {
             <div id="skills-section">
                 <SkillsSection />
             </div>
-        </div >
+        </div>
     );
 }
 
