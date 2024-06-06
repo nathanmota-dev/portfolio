@@ -12,7 +12,7 @@ export const ProjectCard = () => {
     const t = useTranslations("Card");
 
     return (
-        <div className="rounded-lg h-[550px] flex flex-col bg-gray-200 dark:bg-gray-800  overflow-hidden border-2 border-gray-200 dark:border-gray-800 hover:border-emerald-500 opacity-70 hover:opacity-100 transition-all group">
+        <div className="rounded-lg h-[550px] flex flex-col bg-white dark:bg-zinc-800  overflow-hidden border-2 border-gray-200 dark:border-gray-800 hover:border-emerald-500 opacity-70 hover:opacity-100 transition-all group">
             <div className="w-full h-60 overflow-hidden">
                 <Image
                     width={380}
