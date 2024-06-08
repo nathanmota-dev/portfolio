@@ -1,5 +1,6 @@
 import Navbar from "../[locale]/components/navbar";
 import { AboutSection } from "./pages/about";
+import { ContactSection } from "./pages/contact-section";
 import { EducationExperience } from "./pages/education-experience";
 import HeroSection from "./pages/hero-section";
 import { ProjectsSection } from "./pages/projects";
@@ -21,8 +22,11 @@ export default function Home() {
             <div id="projects-section">
                 <ProjectsSection />
             </div>
-            <div id="skills-section">
+            {/*<div id="skills-section">
                 <SkillsSection />
+            </div>*/}
+            <div id="contact-section">
+                <ContactSection />
             </div>
         </div>
     );
