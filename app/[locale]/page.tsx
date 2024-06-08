@@ -1,4 +1,5 @@
 import Navbar from "../[locale]/components/navbar";
+import { Footer } from "./components/footer";
 import { AboutSection } from "./pages/about";
 import { ContactSection } from "./pages/contact-section";
 import { EducationExperience } from "./pages/education-experience";
@@ -27,6 +28,9 @@ export default function Home() {
             </div>*/}
             <div id="contact-section">
                 <ContactSection />
+            </div>
+            <div className="footer">
+                <Footer />
             </div>
         </div>
     );
