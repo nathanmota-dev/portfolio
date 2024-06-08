@@ -46,8 +46,8 @@ const educationItems = [
 const experienceItems = [
     {
         logo: logoWorkana,
-        institution: "Freelancer Front-End",
-        course: "Workana",
+        institution: "Workana",
+        course: "Freelancer Front-End",
         date: "out 2023 - presente",
         description: "Implementação de novas features e realização de interfaces do zero.",
         link: "https://www.linkedin.com/company/workana/",
@@ -55,8 +55,8 @@ const experienceItems = [
     },
     {
         logo: logoUFU,
-        institution: "Monitor de Programação Web",
-        course: "UFU",
+        institution: "UFU",
+        course: "Monitor de Programação Web",
         date: "jun 2023 - dez 2023",
         description: "Monitoria da disciplina de Programação para Internet, auxiliando os alunos com dúvidas e correção de exercícios.",
         link: "",
@@ -64,21 +64,21 @@ const experienceItems = [
     },
     {
         logo: logoTecMob,
-        institution: "Gestor de Tráfego - E-commerce",
-        course: "TecMob",
+        institution: "TecMob",
+        course: "Gestor de Tráfego - E-commerce",
         date: "dez 2020 - maio 2022",
         description: "Gerenciamento de campanhas de publicidade de alto impacto em plataformas como Facebook Ads e Google Ads, além de estratégias de venda e rotina administrativa.",
         link: "",
-        technologies: []
+        technologies: ["Facebook Ads", "Google Ads", "Tiktok Ads", "Excel", "Google Analytics", "Google Tag Manager"]
     },
     {
         logo: logoCorreios,
-        institution: "Auxiliar administrativo - Jovem Aprendiz",
-        course: "Correios",
+        institution: "Correios",
+        course: "Auxiliar administrativo - Jovem Aprendiz",
         date: "nov 2015 - nov 2016",
         description: "Rotina administrativa como organização de documentos, atendimento ao cliente, gerenciamento de correspondências e criação de planilhas e atendimento ao público.",
         link: "https://www.linkedin.com/company/correios/",
-        technologies: []
+        technologies: ["Excel", "Word", "PowerPoint", "Senai"]
     }
 ];
 
@@ -143,7 +143,7 @@ export const EducationExperience = () => {
                     </div>
                     <div className="flex flex-col gap-4">
                         {experienceItems.map((item, index) => (
-                            <EducationItem
+                            <ExperienceItem
                                 key={index}
                                 logo={item.logo}
                                 institution={item.institution}

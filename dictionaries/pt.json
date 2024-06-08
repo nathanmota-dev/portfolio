@@ -27,5 +27,8 @@
     "Card": {
         "name": "Meus Projetos",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aperiam a labore accusantium sed nisi impedit tempore, veritatis voluptatem eaque repellat qui quos voluptas ipsum similique in esse laboriosam fuga."
+    },
+    "Experience": {
+        "text": "Competências"
     }
 }

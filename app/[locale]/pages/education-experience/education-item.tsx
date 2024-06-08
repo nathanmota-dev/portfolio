@@ -1,5 +1,6 @@
 import Image, { StaticImageData } from "next/image";
 import { TechBadge } from "../../components/tech-badge";
+import { useTranslations } from "next-intl";
 
 interface EducationItemProps {
     logo: StaticImageData;
@@ -12,6 +13,9 @@ interface EducationItemProps {
 }
 
 export const EducationItem = ({ logo, institution, course, date, description, link, technologies }: EducationItemProps) => {
+
+    const t = useTranslations("Experience");
+
     return (
         <div className="grid grid-cols-[40px,1fr] gap-4 md:gap-10">
             <div className="flex flex-col items-center gap-4">
@@ -41,8 +45,8 @@ export const EducationItem = ({ logo, institution, course, date, description, li
                         {date}
                     </span>
                     <p className="text-gray-600 dark:text-gray-500">{description}</p>
-                    <p className="dark:text-gray-400 text-sm mb-3 mt-6 font-semibold">Competências</p>
-                    <div className="flex gap-y-2 gap-x-3 flex-wrap lg:max-w-[700px] mb-8">
+                    <p className="dark:text-gray-400 text-sm mb-3 mt-6 font-semibold">{t("text")}</p>
+                    <div className="flex gap-y-3 gap-x-3 flex-wrap lg:max-w-[550px] mb-8">
                         {technologies.map((tech, index) => (
                             <TechBadge key={index} name={tech} />
                         ))}
