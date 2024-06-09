@@ -17,15 +17,15 @@ export default function Home() {
             <div id="about-section">
                 <AboutSection />
             </div>
+            <div id="skills-section">
+                <SkillsSection />
+            </div>
             <div id="education-section">
                 <EducationExperience />
             </div>
             <div id="projects-section">
                 <ProjectsSection />
             </div>
-            {/*<div id="skills-section">
-                <SkillsSection />
-            </div>*/}
             <div id="contact-section">
                 <ContactSection />
             </div>
