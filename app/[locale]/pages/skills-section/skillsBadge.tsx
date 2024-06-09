@@ -8,8 +8,8 @@ type TechBadgeProps = {
 
 export const TechBadge = ({ name, Icon, bgColor }: TechBadgeProps) => {
     return (
-        <span className={`flex items-center text-black dark:text-white ${bgColor} text-sm py-1 px-3 rounded-2xl`}>
-            {Icon && <Icon className="mr-2 text-2xl" />}
+        <span className={`flex items-center text-white ${bgColor} text-sm py-1 px-3 rounded-2xl`}>
+            {Icon && <Icon className="mr-2 md:text-2xl text-xl" />}
             {name}
         </span>
     )

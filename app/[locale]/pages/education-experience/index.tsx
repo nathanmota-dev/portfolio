@@ -87,7 +87,7 @@ export const EducationExperience = () => {
     const [activeTab, setActiveTab] = useState("education");
 
     return (
-        <div className="w-full bg-white dark:bg-black pt-16 pb-8">
+        <div className="w-full bg-white dark:bg-black lg:pt-6 pb-8">
             <div className=" text-center pb-10">
                 <h1 className="text-2xl md:text-3xl font-bold">Qualificações</h1>
             </div>
