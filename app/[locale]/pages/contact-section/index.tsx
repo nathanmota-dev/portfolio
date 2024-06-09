@@ -1,7 +1,8 @@
 import { MdMarkEmailRead } from "react-icons/md";
-import { CardsBadge } from "../skills-section/cards-badge";
+import { CardsBadge } from "./cards-badge";
 import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
-import { FormSection } from "../skills-section/form";
+import { FormSection } from "./form";
+
 
 const cards = [
     {
@@ -29,7 +30,7 @@ const cards = [
 
 export const ContactSection = () => {
     return (
-        <div className=" w-full h-full lg:h-screen bg-white dark:bg-black justify-center text-center pb-6 md:pt-12 pt-6">
+        <div className="w-full h-auto bg-white dark:bg-black justify-center text-center pb-20 md:pt-10 pt-6">
             <div className="w-full">
                 <h1 className=" text-black dark:text-white text-2xl md:text-3xl font-bold p-4">Contate-me</h1>
                 <p className="md:text-lg text-base pb-4 md:pb-16">Entre em contato comigo</p>
