@@ -30,5 +30,8 @@
     },
     "Experience": {
         "text": "Competências"
+    },
+    "Skills": {
+        "title": "Habilidades"        
     }
 }
