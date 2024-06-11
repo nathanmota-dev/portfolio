@@ -45,7 +45,7 @@ export default function Navbar() {
     };
 
     return (
-        <nav className="bg-white dark:bg-black border-b border-gray-200 dark:border-gray-700 fixed w-full">
+        <nav className="bg-white dark:bg-black border-b border-gray-200 dark:border-gray-700 fixed w-full z-50">
             <div>
                 <nav className="bg-white dark:bg-black">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 pg:px-8">
@@ -76,10 +76,10 @@ export default function Navbar() {
                             <div className='hidden md:block'>
                                 <div className='ml-4 flex items-center space-x-4'>
                                     <a href="#about-section" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a1")}</a>
-                                    <a href="#projects-section" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a2")}</a>
-                                    <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a3")}</a>
-                                    <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a4")}</a>
-                                    <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a5")}</a>
+                                    <a href="#skills-section" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a4")}</a>
+                                    <a href="#education-section" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a2")}</a>
+                                    <a href="#projects-section" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a3")}</a>
+                                    <a href="#contact-section" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a5")}</a>
                                 </div>
                             </div>
                             <div className='md:hidden flex items-center'>
@@ -100,11 +100,11 @@ export default function Navbar() {
                     {isClick && (
                         <div className='md:hidden'>
                             <div className='flex flex-col px-2 pt-2 pb-3 space-y-1 sm:px-3 text-center'>
-                                <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a1")}</a>
-                                <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a2")}</a>
-                                <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a3")}</a>
-                                <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a4")}</a>
-                                <a href="/" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a5")}</a>
+                                <a href="#about-section" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a1")}</a>
+                                <a href="#skills-section" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a4")}</a>
+                                <a href="#education-section" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a2")}</a>
+                                <a href="#projects-section" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a3")}</a>
+                                <a href="#contact-section" className='text-black dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg p-2'>{t("a5")}</a>
                             </div>
                         </div>
                     )}
