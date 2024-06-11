@@ -31,7 +31,146 @@
     "Experience": {
         "text": "Skills"
     },
+    "Contact": {
+        "h1": "Contact Me",
+        "p": "Get in touch with me",
+        "subtitle1": "Talk to me",
+        "subtitle2": "Describe your interest"
+    },
+    "Footer": {
+        "p1": "2024 © Nathan Mota - All rights reserved.",
+        "p2": "Developed with Next, TailwindCSS, React Icons and Shadcn.ui"
+    },
+    "Form": {
+        "name": "Name",
+        "name-placeholder": "Your full name",
+        "email": "Email",
+        "email-placeholder": "Your best email",
+        "message": "Message",
+        "message-placeholder": "Write your message here...",
+        "button": "Send Message"
+    },
     "Skills": {
         "title": "Skills"
+    },
+    "EducationExperience": {
+        "title": "Qualifications",
+        "education": "Education",
+        "experience": "Experience",
+        "education-title": "Educational Experiences",
+        "education-description": "Here are some of my educational experiences where I gained knowledge and skills.",
+        "experience-title": "Professional Experiences",
+        "experience-description": "Here are some of my professional experiences. I am always open to new challenges and projects. Let's work together to create amazing solutions!",
+        "educationItems": [
+            {
+                "institution": "Federal University of Uberlândia - Monte Carmelo",
+                "course": "Information Systems",
+                "date": "Aug 2019 - present",
+                "description": "Learning in software development at all stages, databases, modeling and software engineering, artificial intelligence, among others.",
+                "link": "https://facom.ufu.br/graduacao/sistemas-de-informacao-campus-monte-carmelo",
+                "technologies": [
+                    "C",
+                    "Java",
+                    "PHP",
+                    "Python",
+                    "JavaScript",
+                    "Node",
+                    "HTML",
+                    "CSS",
+                    "Bootstrap",
+                    "PostgreSQL",
+                    "MySQL",
+                    "MongoDB"
+                ]
+            },
+            {
+                "institution": "Luiz Otávio Miranda and Matheus Fraga",
+                "course": "React.js and Next.js",
+                "date": "Aug 2023 - Feb 2024",
+                "description": "Interface development with React, Next, and Node on the Backend",
+                "link": "https://facom.ufu.br/graduacao/sistemas-de-informacao-campus-monte-carmelo",
+                "technologies": [
+                    "React",
+                    "Next",
+                    "Node",
+                    "JavaScript",
+                    "TypeScript"
+                ]
+            },
+            {
+                "institution": "São Paulo State University Júlio de Mesquita Filho",
+                "course": "Technical in Computer Science",
+                "date": "Jan 2015 - Dec 2016",
+                "description": "Development of Desktop and Web systems, Computer Networks",
+                "link": "https://facom.ufu.br/graduacao/sistemas-de-informacao-campus-monte-carmelo",
+                "technologies": [
+                    "Java",
+                    "HTML",
+                    "CSS"
+                ]
+            }
+        ],
+        "experienceItems": [
+            {
+                "institution": "Workana",
+                "course": "Freelance Front-End Developer",
+                "date": "Oct 2023 - present",
+                "description": "Implementation of new features and creation of interfaces from scratch.",
+                "link": "https://www.linkedin.com/company/workana/",
+                "technologies": [
+                    "React",
+                    "Node",
+                    "Express",
+                    "Tailwind",
+                    "StyledComponents",
+                    "MySQL",
+                    "MongoDB",
+                    "PostgreSQL",
+                    "Prisma"
+                ]
+            },
+            {
+                "institution": "UFU",
+                "course": "Web Programming Teaching Assistant",
+                "date": "Jun 2023 - Dec 2023",
+                "description": "Assisting in the Internet Programming course, helping students with questions and exercise corrections.",
+                "link": "",
+                "technologies": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "PHP",
+                    "MySQL"
+                ]
+            },
+            {
+                "institution": "TecMob",
+                "course": "Traffic Manager - E-commerce",
+                "date": "Dec 2020 - May 2022",
+                "description": "Managing high-impact advertising campaigns on platforms such as Facebook Ads and Google Ads, as well as sales strategies and administrative routine.",
+                "link": "",
+                "technologies": [
+                    "Facebook Ads",
+                    "Google Ads",
+                    "Tiktok Ads",
+                    "Excel",
+                    "Google Analytics",
+                    "Google Tag Manager"
+                ]
+            },
+            {
+                "institution": "Correios",
+                "course": "Administrative Assistant - Young Apprentice",
+                "date": "Nov 2015 - Nov 2016",
+                "description": "Administrative routine such as document organization, customer service, mail management, spreadsheet creation, and public service.",
+                "link": "https://www.linkedin.com/company/correios/",
+                "technologies": [
+                    "Excel",
+                    "Word",
+                    "PowerPoint",
+                    "Senai"
+                ]
+            }
+        ]
     }
 }

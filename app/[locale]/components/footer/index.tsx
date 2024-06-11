@@ -2,6 +2,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { MdMarkEmailRead } from "react-icons/md";
 import { RoundedCards } from "./roudendCards";
+import { useTranslations } from "next-intl";
 
 const socialMediaIcons = [
     {
@@ -19,6 +20,9 @@ const socialMediaIcons = [
 ]
 
 export const Footer = () => {
+
+    const t = useTranslations("Footer");
+
     return (
         <footer className="h-full w-full bg-gray-200 dark:bg-gray-800/85 p-10">
             <div className="flex flex-col justify-center items-center text-center h-full space-y-2">
@@ -31,8 +35,8 @@ export const Footer = () => {
                         />
                     ))}
                 </div>
-                <p>2024 © Nathan Mota - Todos os direitos Reservados.</p>
-                <p>Desenvolvido com Next, TailwindCSS, React Icons e Shadcn.ui</p>
+                <p>{t("p1")}</p>
+                <p>{t("p2")}</p>
             </div>
         </footer>
     );

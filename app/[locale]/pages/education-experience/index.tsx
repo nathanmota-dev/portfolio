@@ -12,6 +12,7 @@ import logoReact from "../../../../public/education/react.svg";
 import logoWorkana from "../../../../public/education/logoWorkana.png";
 import logoCorreios from "../../../../public/education/logoCorreios.png";
 import logoTecMob from "../../../../public/education/logoTecMob.png";
+import { useTranslations } from "next-intl";
 
 const educationItems = [
     {
@@ -84,12 +85,15 @@ const experienceItems = [
 
 
 export const EducationExperience = () => {
+
+    const t = useTranslations("EducationExperience");
+
     const [activeTab, setActiveTab] = useState("education");
 
     return (
         <div className="w-full bg-white dark:bg-black lg:pt-6 pb-8">
             <div className=" text-center pb-10">
-                <h1 className="text-2xl md:text-3xl font-bold">Qualificações</h1>
+                <h1 className="text-2xl md:text-3xl font-bold">{t("title")}</h1>
             </div>
             <div className="container md:py-4 flex justify-center gap-4">
                 <button
@@ -97,23 +101,23 @@ export const EducationExperience = () => {
                     className={`flex text-xl gap-x-2 bg-white dark:bg-black py-2 px-4 ${activeTab === "education" ? "text-emerald-700 dark:text-emerald-400" : "text-black dark:text-white"} rounded-md`}
                 >
                     <FaGraduationCap className="text-xl md:text-2xl" />
-                    Educação
+                    {t("education")}
                 </button>
                 <button
                     onClick={() => setActiveTab("experience")}
                     className={`flex text-xl gap-x-2 bg-white dark:bg-black py-2 px-4 ${activeTab === "experience" ? "text-emerald-700 dark:text-emerald-400" : "text-black dark:text-white"} rounded-md p-3`}
                 >
                     <MdOutlineWorkHistory className="text-xl md:text-2xl" />
-                    Experiência
+                    {t("experience")}
                 </button>
             </div>
 
             {activeTab === "education" && (
                 <section className="container py-6 md:py-16 flex gap-16 md:gap-4 lg:gap-16 flex-col md:flex-row">
                     <div className="max-w-[420px]">
-                        <h1 className="text-3xl font-medium text-center md:text-left">Experiências Educacional</h1>
+                        <h1 className="text-3xl font-medium text-center md:text-left">{t("education-title")}</h1>
                         <p className="text-gray-500 dark:text-gray-400 mt-6">
-                            Aqui estão algumas das minhas experiências educacionais, onde adquiri conhecimento e habilidades.
+                            {t("education-description")}
                         </p>
                     </div>
                     <div className="flex flex-col gap-4">
@@ -136,9 +140,9 @@ export const EducationExperience = () => {
             {activeTab === "experience" && (
                 <section className="container py-6 md:py-16 flex gap-16 md:gap-4 lg:gap-16 flex-col md:flex-row">
                     <div className="max-w-[420px]">
-                        <h1 className="text-3xl font-medium text-center md:text-left">Experiências Profissionais</h1>
+                        <h1 className="text-3xl font-medium text-center md:text-left">{t("experience-title")}</h1>
                         <p className="text-gray-500 dark:text-gray-400 mt-6">
-                            Aqui estão algumas das minhas experiências profissionais. Estou sempre aberto a novos desafios e projetos. Vamos trabalhar juntos para criar soluções incríveis!
+                            {t("experience-description")}
                         </p>
                     </div>
                     <div className="flex flex-col gap-4">
