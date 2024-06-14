@@ -22,12 +22,29 @@ export const FormSection = () => {
 
     const t = useTranslations("Form");
 
-    const { handleSubmit, register } = useForm<ContactFormDataType>({
+    const { handleSubmit, register, reset } = useForm<ContactFormDataType>({
         resolver: zodResolver(contactFormSchema)
     });
 
-    const onSubmit = (data: ContactFormDataType) => {
-        console.log(data);
+    const onSubmit = async (data: ContactFormDataType) => {
+        try {
+            const response = await fetch('/api/send-email', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            });
+
+            if (response.ok) {
+                console.log('E-mail enviado com sucesso!');
+                reset(); 
+            } else {
+                console.error('Erro ao enviar o e-mail.');
+            }
+        } catch (error) {
+            console.error('Erro ao enviar o e-mail:', error);
+        }
     }
 
     return (
@@ -60,7 +77,7 @@ export const FormSection = () => {
                     {...register("message")}
                 />
 
-                <Button>{t("button")} <FiSend /></Button>
+                <Button type="submit">{t("button")} <FiSend /></Button>
             </form>
         </div>
     )
