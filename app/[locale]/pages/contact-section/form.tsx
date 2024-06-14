@@ -38,7 +38,7 @@ export const FormSection = () => {
 
             if (response.ok) {
                 console.log('E-mail enviado com sucesso!');
-                reset(); 
+                reset();
             } else {
                 console.error('Erro ao enviar o e-mail.');
             }
