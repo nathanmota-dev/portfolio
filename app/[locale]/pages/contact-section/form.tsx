@@ -9,6 +9,8 @@ import { useTranslations } from "next-intl"
 import { useForm } from "react-hook-form"
 import { z } from "zod"
 import { zodResolver } from '@hookform/resolvers/zod'
+import { Toaster } from "@/components/ui/toaster"
+import { toast } from "@/components/ui/use-toast"
 
 const contactFormSchema = z.object({
     name: z.string().min(3).max(50),
@@ -39,6 +41,10 @@ export const FormSection = () => {
             if (response.ok) {
                 console.log('E-mail enviado com sucesso!');
                 reset();
+                toast({
+                    title: "Formulário enviado!",
+                    description: "Vou entrar em contato em breve!",
+                });
             } else {
                 console.error('Erro ao enviar o e-mail.');
             }
@@ -76,9 +82,11 @@ export const FormSection = () => {
                     maxLength={500}
                     {...register("message")}
                 />
-
-                <Button type="submit">{t("button")} <FiSend /></Button>
+                <Button type="submit">
+                    {t("button")} <FiSend />
+                </Button>
             </form>
+            <Toaster />
         </div>
     )
 }
