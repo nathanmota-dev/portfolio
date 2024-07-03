@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import logo from '../../../../public/logo.png';
+import logo from '/public/logo.png';
 import { LanguageToggle } from '../languageToogle';
 import { useTranslations } from 'next-intl';
 
@@ -45,7 +45,7 @@ export default function Navbar() {
     };
 
     return (
-        <nav className="bg-white dark:bg-black border-b border-gray-200 dark:border-gray-700 fixed w-full z-50">
+        <nav className="bg-white dark:bg-black border-b border-gray-200 dark:border-gray-700 w-full">
             <div>
                 <nav className="bg-white dark:bg-black">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 pg:px-8">

@@ -32,7 +32,7 @@ export default function HeroSection() {
 
     return (
         <div>
-            <section className="bg-white dark:bg-black w-full h-auto sm:h-[90vh] flex flex-col justify-center items-center pb-6 sm:pb:0 pt-20 sm:pt-0">
+            <section className="bg-white dark:bg-black w-full h-auto sm:h-[82vh] flex flex-col justify-center items-center pb-6 sm:pb:0 pt-20 sm:pt-0">
                 <div className="container flex items-center justify-between flex-col-reverse lg:flex-row mx-auto px-4">
                     <div className="w-full lg:max-w-[530px] text-center lg:text-left">
                         <p className="font-mono text-emerald-600 dark:text-emerald-400">{t("p")}</p>
