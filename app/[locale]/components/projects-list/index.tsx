@@ -4,16 +4,15 @@ import { RiJavascriptFill, RiRemixiconLine } from "react-icons/ri";
 import { TbBrandNextjs, TbBrandVite } from "react-icons/tb";
 import { SiBootstrap, SiExpress, SiFastapi, SiFastify, SiMysql, SiPostgresql, SiReacthookform, SiSass, SiScrollreveal, SiShadcnui, SiStyledcomponents, SiSwiper, SiTailwindcss, SiZod } from "react-icons/si";
 import { BiLogoTypescript } from "react-icons/bi";
-
-import CoffeeLP from "/public/projects/Coffee-LP.JPG"
-import InsoveLP from "/public/projects/Insove-LP.JPG"
-import Buscador from "/public/projects/Buscador.JPG"
-import Dash from "/public/projects/Dash.JPG"
-import ListaDePaises from "/public/projects/ListaDePaises.JPG"
-import GoogleKeep from "/public/projects/GoogleKeep.JPG"
-import NodeFastify from "/public/projects/NodeFastify.JPG"
-import TechVantage from "/public/projects/TechVantage.JPG"
-import FastAPI from "/public/projects/FastAPI.JPG"
+import CoffeeLP from "../../../../public/projects/Coffee-LP.JPG"
+import InsoveLP from "../../../../public/projects/Insove-LP.JPG"
+import Buscador from "../../../../public/projects/Buscador.JPG"
+import Dash from "../../../../public/projects/Dash.JPG"
+import ListaDePaises from "../../../../public/projects/ListaDePaises.JPG"
+import GoogleKeep from "../../../../public/projects/GoogleKeep.JPG"
+import NodeFastify from "../../../../public/projects/NodeFastify.JPG"
+import TechVantage from "../../../../public/projects/TechVantage.JPG"
+import FastAPI from "../../../../public/projects/FastAPI.JPG"
 
 const techIcons = {
     "React": FaReact,
