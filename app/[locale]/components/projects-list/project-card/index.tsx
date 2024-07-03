@@ -1,6 +1,7 @@
 import Image, { StaticImageData } from "next/image";
 import { TechBadge } from "../../tech-badge";
 import { IconType } from "react-icons";
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 type ProjectCardProps = {
     image: StaticImageData;
@@ -8,9 +9,11 @@ type ProjectCardProps = {
     description: string;
     technologies: string[];
     techIcons: { [key: string]: IconType };
+    githubUrl: string;
+    deployUrl: string;
 }
 
-export const ProjectCard = ({ image, title, description, technologies, techIcons }: ProjectCardProps) => {
+export const ProjectCard = ({ image, title, description, technologies, techIcons, githubUrl, deployUrl }: ProjectCardProps) => {
 
     return (
         <div className="rounded-lg h-[550px] flex flex-col bg-white dark:bg-zinc-800  overflow-hidden border-2 border-gray-200 dark:border-gray-800 hover:border-emerald-500 opacity-70 hover:opacity-100 transition-all group">
@@ -40,6 +43,16 @@ export const ProjectCard = ({ image, title, description, technologies, techIcons
                         );
                     })}
                 </span>
+                <div className="mt-auto flex justify-end gap-x-6 pt-4">
+                    <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-emerald-500 transition-all">
+                        <FaGithub size={24} />
+                    </a>
+                    {deployUrl && deployUrl.length > 1 && (
+                        <a href={deployUrl} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-emerald-500 transition-all">
+                            <FaExternalLinkAlt size={24} />
+                        </a>
+                    )}
+                </div>
             </div>
         </div>
     );
