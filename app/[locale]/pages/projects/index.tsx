@@ -1,8 +1,12 @@
+"use client"
+
+import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { ProjectList } from "../../components/projects-list";
 
 export const ProjectsSection = () => {
 
+    const [filter, setFilter] = useState<string>('');
     const t = useTranslations("Projects");
 
     return (
@@ -10,13 +14,13 @@ export const ProjectsSection = () => {
             <h1 className="sm:text-3xl text-2xl pt-10 font-bold">{t("title")}</h1>
             <p className="pt-6">{t("description")}</p>
             <div className="sm:text-lg text-sm mt-8 space-x-0.5">
-                <button className="bg-emerald-400 text-white cursor-pointer border-none p-2 hover:bg-emerald-600 transition-all rounded-l-3xl ">TODOS</button>
-                <button className="bg-emerald-400 text-white cursor-pointer border-none p-2 hover:bg-emerald-600 transition-all">FRONT</button>
-                <button className="bg-emerald-400 text-white cursor-pointer border-none p-2 hover:bg-emerald-600 transition-all">BACK</button>
-                <button className="bg-emerald-400 text-white cursor-pointer border-none p-2 hover:bg-emerald-600 transition-all rounded-e-3xl">OUTROS</button>
+                <button className="bg-emerald-400 text-white cursor-pointer border-none p-2 hover:bg-emerald-600 transition-all rounded-l-3xl" onClick={() => setFilter("fullstack")}>FULLSTACK</button>
+                <button className="bg-emerald-400 text-white cursor-pointer border-none p-2 hover:bg-emerald-600 transition-all" onClick={() => setFilter("frontend")}>FRONT</button>
+                <button className="bg-emerald-400 text-white cursor-pointer border-none p-2 hover:bg-emerald-600 transition-all" onClick={() => setFilter("backend")}>BACK</button>
+                <button className="bg-emerald-400 text-white cursor-pointer border-none p-2 hover:bg-emerald-600 transition-all rounded-e-3xl" onClick={() => setFilter("")}>TODOS</button>
             </div>
 
-            <ProjectList />
+            <ProjectList filter={filter} />
 
         </div>
     );

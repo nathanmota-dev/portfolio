@@ -4,7 +4,7 @@ import { IconType } from "react-icons";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 type ProjectCardProps = {
-    image: StaticImageData;
+    image: string;
     title: string;
     description: string;
     technologies: string[];
