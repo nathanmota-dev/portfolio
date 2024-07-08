@@ -4,7 +4,7 @@ import { RiJavascriptFill, RiRemixiconLine } from "react-icons/ri";
 import { TbBrandNextjs, TbBrandVite } from "react-icons/tb";
 import { SiBootstrap, SiExpress, SiFastapi, SiFastify, SiMysql, SiPostgresql, SiReacthookform, SiSass, SiScrollreveal, SiShadcnui, SiStyledcomponents, SiSwiper, SiTailwindcss, SiZod } from "react-icons/si";
 import { BiLogoTypescript } from "react-icons/bi";
-import projectsList from "../projects-list/projects.json";
+import projectsList from "../projects-list/pt.json";
 
 const techIcons = {
     "React": FaReact,
