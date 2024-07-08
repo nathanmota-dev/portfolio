@@ -22,7 +22,8 @@
     },
     "Projects": {
         "title": "Meus Projetos",
-        "description": "Confira abaixo alguns projetos que desenvolvi na minha trajetória como desenvolvedor."
+        "description": "Confira abaixo alguns projetos que desenvolvi na minha trajetória como desenvolvedor.",
+        "p": "TODOS"
     },
     "Card": {
         "name": "Meus Projetos",
@@ -60,117 +61,6 @@
         "education-title": "Experiências Educacionais",
         "education-description": "Aqui estão algumas das minhas experiências educacionais, onde adquiri conhecimento e habilidades.",
         "experience-title": "Experiências Profissionais",
-        "experience-description": "Aqui estão algumas das minhas experiências profissionais. Estou sempre aberto a novos desafios e projetos. Vamos trabalhar juntos para criar soluções incríveis!",
-        "educationItems": [
-            {
-                "institution": "Universidade Federal de Uberlândia - Monte Carmelo",
-                "course": "Sistemas de Informação",
-                "date": "ago 2019 - presente",
-                "description": "Aprendizado no desenvolvimento de software em todas as etapas, banco de dados, modelagem e engenharia de software, inteligência artificial, entre outros.",
-                "link": "https://facom.ufu.br/graduacao/sistemas-de-informacao-campus-monte-carmelo",
-                "technologies": [
-                    "C",
-                    "Java",
-                    "PHP",
-                    "Python",
-                    "JavaScript",
-                    "Node",
-                    "HTML",
-                    "CSS",
-                    "Bootstrap",
-                    "PostgreSQL",
-                    "MySQL",
-                    "MongoDB"
-                ]
-            },
-            {
-                "institution": "Luiz Otávio Miranda e Matheus Fraga",
-                "course": "React.js e Next.js",
-                "date": "ago 2023 - fev 2024",
-                "description": "Desenvolvimento de interfaces com React, Next e Node no Backend",
-                "link": "https://facom.ufu.br/graduacao/sistemas-de-informacao-campus-monte-carmelo",
-                "technologies": [
-                    "React",
-                    "Next",
-                    "Node",
-                    "JavaScript",
-                    "TypeScript"
-                ]
-            },
-            {
-                "institution": "Universidade Estadual Paulista Júlio de Mesquita Filho",
-                "course": "Técnico em Informática",
-                "date": "jan 2015 - dez 2016",
-                "description": "Desenvolvimento de sistemas Desktop e Web, Redes de Computadores",
-                "link": "https://facom.ufu.br/graduacao/sistemas-de-informacao-campus-monte-carmelo",
-                "technologies": [
-                    "Java",
-                    "HTML",
-                    "CSS"
-                ]
-            }
-        ],
-        "experienceItems": [
-            {
-                "institution": "Workana",
-                "course": "Freelancer Front-End",
-                "date": "out 2023 - presente",
-                "description": "Implementação de novas features e realização de interfaces do zero.",
-                "link": "https://www.linkedin.com/company/workana/",
-                "technologies": [
-                    "React",
-                    "Node",
-                    "Express",
-                    "Tailwind",
-                    "StyledComponents",
-                    "MySQL",
-                    "MongoDB",
-                    "PostgreSQL",
-                    "Prisma"
-                ]
-            },
-            {
-                "institution": "UFU",
-                "course": "Monitor de Programação Web",
-                "date": "jun 2023 - dez 2023",
-                "description": "Monitoria da disciplina de Programação para Internet, auxiliando os alunos com dúvidas e correção de exercícios.",
-                "link": "",
-                "technologies": [
-                    "HTML",
-                    "CSS",
-                    "JavaScript",
-                    "PHP",
-                    "MySQL"
-                ]
-            },
-            {
-                "institution": "TecMob",
-                "course": "Gestor de Tráfego - E-commerce",
-                "date": "dez 2020 - maio 2022",
-                "description": "Gerenciamento de campanhas de publicidade de alto impacto em plataformas como Facebook Ads e Google Ads, além de estratégias de venda e rotina administrativa.",
-                "link": "",
-                "technologies": [
-                    "Facebook Ads",
-                    "Google Ads",
-                    "Tiktok Ads",
-                    "Excel",
-                    "Google Analytics",
-                    "Google Tag Manager"
-                ]
-            },
-            {
-                "institution": "Correios",
-                "course": "Auxiliar administrativo - Jovem Aprendiz",
-                "date": "nov 2015 - nov 2016",
-                "description": "Rotina administrativa como organização de documentos, atendimento ao cliente, gerenciamento de correspondências e criação de planilhas e atendimento ao público.",
-                "link": "https://www.linkedin.com/company/correios/",
-                "technologies": [
-                    "Excel",
-                    "Word",
-                    "PowerPoint",
-                    "Senai"
-                ]
-            }
-        ]
+        "experience-description": "Aqui estão algumas das minhas experiências profissionais. Estou sempre aberto a novos desafios e projetos. Vamos trabalhar juntos para criar soluções incríveis!"    
     }
 }

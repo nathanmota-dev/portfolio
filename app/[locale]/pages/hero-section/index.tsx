@@ -73,9 +73,9 @@ export default function HeroSection() {
                     <Image
                         width={420}
                         height={404}
-                        src="/images/profile.jpg"
+                        src="/images/profile.png"
                         alt="Foto de perfil de Nathan Mota"
-                        className="w-[300px] h-[300px] lg:w-[420px] lg:h-[404px] mb-6 lg:mb-0 rounded-lg shadow-2xl object-cover mt-6 sm:mt-0"
+                        className="w-[300px] h-[300px] lg:w-[420px] lg:h-[404px] mb-6 lg:mb-0 rounded-full shadow-2xl object-cover mt-6 sm:mt-0"
                     />
                 </div>
             </section>
