@@ -51,11 +51,13 @@ export default function HeroSection() {
                         </div>
 
                         <div className="mt-6 lg:mt-10 flex items-center sm:gap-5 flex-col sm:flex-row justify-center lg:justify-start">
-                            <Button className="w-max shadow-button flex items-center gap-2">
-                                {t("button")}
-                                <HiArrowNarrowRight size={18} />
-                            </Button>
-
+                            <a href="#contact-section">
+                                <Button className="w-max shadow-button flex items-center gap-2">
+                                    {t("button")}
+                                    <HiArrowNarrowRight size={18} />
+                                </Button>
+                            </a>
+                            
                             <div className="text-2xl flex items-center gap-3 mt-4 sm:mt-0">
                                 {contacts.map((contact, index) => (
                                     <a
