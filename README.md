@@ -39,17 +39,18 @@ Este portfólio apresenta vários projetos que demonstram minhas habilidades e e
 
 ## :hammer_and_wrench: Tools/Ferramentas
 
-NEXT.JS
-REACT.JS
-React Hook Form
-TailwindCSS
-Framer Motion
-Radix UI
-Zod
-clsx
-lucide-react
-next-intl
-Nodemailer
+- NextJs
+- ReactJs
+- React Hook Form
+- TailwindCSS
+- Framer Motion
+- Radix UI
+- Zod
+- Lucide Icons
+- Next Intl
+- Nodemailer
+- Server Components
+- Vercel
 
 ## :rocket: How to execute the project/Como Executar o Projeto
 
