@@ -8,7 +8,14 @@ export default getRequestConfig(async ({ locale }) => {
     // Validate that the incoming `locale` parameter is valid
     if (!locales.includes(locale as any)) notFound();
 
+    const messages = {
+        ...(await import(`./dictionaries/${locale}/messages.json`)).default,
+        ...(await import(`./dictionaries/${locale}/experience.json`)).default,
+        ...(await import(`./dictionaries/${locale}/education.json`)).default,
+        ...(await import(`./dictionaries/${locale}/project.json`)).default
+    };
+
     return {
-        messages: (await import(`./dictionaries/${locale}.json`)).default
+        messages
     };
 });
