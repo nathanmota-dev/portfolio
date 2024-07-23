@@ -1,9 +1,9 @@
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 import { TechBadge } from "../../components/tech-badge";
 import { useTranslations } from "next-intl";
 
 interface ExperienceItemProps {
-    logo: StaticImageData;
+    logo: string;
     institution: string;
     course: string;
     date: string;

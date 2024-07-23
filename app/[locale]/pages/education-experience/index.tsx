@@ -1,98 +1,59 @@
+"use client";
 
-"use client"
-
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { EducationItem } from "./education-item";
 import { ExperienceItem } from "./experience-item";
 import { FaGraduationCap } from "react-icons/fa";
 import { MdOutlineWorkHistory } from "react-icons/md";
-import logoUFU from "../../../../public/education/logoUFU.png";
-import logoUnesp from "../../../../public/education/logounesp.png";
-import logoReact from "../../../../public/education/react.svg";
-import logoWorkana from "../../../../public/education/logoWorkana.png";
-import logoCorreios from "../../../../public/education/logoCorreios.png";
-import logoTecMob from "../../../../public/education/logoTecMob.png";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
+import { loadEducationData, loadExperienceData } from "./loadData"; 
 
-const educationItems = [
-    {
-        logo: logoUFU,
-        institution: "Universidade Federal de Uberlândia - Monte Carmelo",
-        course: "Sistemas de Informação",
-        date: "ago 2019 - presente",
-        description: "Aprendizado no desenvolvimento de software em todas as etapas, banco de dados, modelagem e engenharia de software, inteligência artificial, entre outros.",
-        link: "https://facom.ufu.br/graduacao/sistemas-de-informacao-campus-monte-carmelo",
-        technologies: ["C", "Java", "PHP", "Python", "JavaScript", "Node", "HTML", "CSS", "Boostrap", "PosgreSQL", "Mysql", "MongoDB"]
-    },
-    {
-        logo: logoReact,
-        institution: "Luiz Otávio Miranda e Matheus Fraga",
-        course: "React.Js e Next.js",
-        date: "ago 2023 - fev 2024",
-        description: "Desenvolvimento de interfaces com React, Next e Node no Backend",
-        link: "https://facom.ufu.br/graduacao/sistemas-de-informacao-campus-monte-carmelo",
-        technologies: ["React", "Next", "Node", "JavaScript", "TypeScript"]
-    },
-    {
-        logo: logoUnesp,
-        institution: "Universidade Estadual Paulista Júlio de Mesquita Filho",
-        course: "Técnico em Informática",
-        date: "jan 2015 - dez 2016",
-        description: "Desenvolvimento de sistemas Desktop E Web, Redes de Computadores",
-        link: "https://facom.ufu.br/graduacao/sistemas-de-informacao-campus-monte-carmelo",
-        technologies: ["Java", "HTML", "CSS"]
-    }
-];
+interface EducationItemProps {
+    logo: string;
+    institution: string;
+    course: string;
+    date: string;
+    description: string;
+    link: string;
+    technologies: string[];
+}
 
-const experienceItems = [
-    {
-        logo: logoWorkana,
-        institution: "Workana",
-        course: "Freelancer Front-End",
-        date: "out 2023 - presente",
-        description: "Implementação de novas features e realização de interfaces do zero.",
-        link: "https://www.linkedin.com/company/workana/",
-        technologies: ["React", "Node", "Express", "Tailwind", "StyledComponents", "MySQL", "MongoDB", "PostgreSQL", "Prisma"]
-    },
-    {
-        logo: logoUFU,
-        institution: "UFU",
-        course: "Monitor de Programação Web",
-        date: "jun 2023 - dez 2023",
-        description: "Monitoria da disciplina de Programação para Internet, auxiliando os alunos com dúvidas e correção de exercícios.",
-        link: "",
-        technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"]
-    },
-    {
-        logo: logoTecMob,
-        institution: "TecMob",
-        course: "Gestor de Tráfego - E-commerce",
-        date: "dez 2020 - maio 2022",
-        description: "Gerenciamento de campanhas de publicidade de alto impacto em plataformas como Facebook Ads e Google Ads, além de estratégias de venda e rotina administrativa.",
-        link: "",
-        technologies: ["Facebook Ads", "Google Ads", "Tiktok Ads", "Excel", "Google Analytics", "Google Tag Manager"]
-    },
-    {
-        logo: logoCorreios,
-        institution: "Correios",
-        course: "Auxiliar administrativo - Jovem Aprendiz",
-        date: "nov 2015 - nov 2016",
-        description: "Rotina administrativa como organização de documentos, atendimento ao cliente, gerenciamento de correspondências e criação de planilhas e atendimento ao público.",
-        link: "https://www.linkedin.com/company/correios/",
-        technologies: ["Excel", "Word", "PowerPoint", "Senai"]
-    }
-];
-
+interface ExperienceItemProps {
+    logo: string;
+    institution: string;
+    course: string;
+    date: string;
+    description: string;
+    link: string;
+    technologies: string[];
+}
 
 export const EducationExperience = () => {
-
     const t = useTranslations("EducationExperience");
-
+    const locale = useLocale();
     const [activeTab, setActiveTab] = useState("education");
+    const [educationItems, setEducationItems] = useState<EducationItemProps[]>([]);
+    const [experienceItems, setExperienceItems] = useState<ExperienceItemProps[]>([]);
+
+    useEffect(() => {
+        async function loadData() {
+            if (locale) {
+                try {
+                    const educationData = await loadEducationData(locale);
+                    const experienceData = await loadExperienceData(locale);
+                    setEducationItems(educationData);
+                    setExperienceItems(experienceData);
+                } catch (error) {
+                    console.error("Failed to load data:", error);
+                }
+            }
+        }
+        loadData();
+    }, [locale]);
 
     return (
         <div className="w-full bg-white dark:bg-black lg:pt-6 pb-8">
-            <div className=" text-center pb-10">
+            <div className="text-center pb-10">
                 <h1 className="text-2xl md:text-3xl font-bold">{t("title")}</h1>
             </div>
             <div className="container md:py-4 flex justify-center gap-4">
