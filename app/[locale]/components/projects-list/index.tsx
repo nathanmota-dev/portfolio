@@ -1,10 +1,14 @@
+"use client";
+
+import { useState, useEffect } from "react";
 import { ProjectCard } from "./project-card";
-import { FaCss3Alt, FaHtml5, FaNodeJs, FaPhp, FaPython, FaReact, } from "react-icons/fa";
+import { useLocale } from "next-intl";
+import { loadProjectData } from "./loadData";
+import { FaCss3Alt, FaHtml5, FaNodeJs, FaPhp, FaPython, FaReact } from "react-icons/fa";
 import { RiJavascriptFill, RiRemixiconLine } from "react-icons/ri";
 import { TbBrandNextjs, TbBrandVite } from "react-icons/tb";
 import { SiBootstrap, SiExpress, SiFastapi, SiFastify, SiMysql, SiPostgresql, SiReacthookform, SiSass, SiScrollreveal, SiShadcnui, SiStyledcomponents, SiSwiper, SiTailwindcss, SiZod } from "react-icons/si";
 import { BiLogoTypescript } from "react-icons/bi";
-import projectsList from "../projects-list/pt.json";
 
 const techIcons = {
     "React": FaReact,
@@ -40,6 +44,23 @@ interface ProjectListProps {
 }
 
 export const ProjectList = ({ filter }: ProjectListProps) => {
+    const locale = useLocale();
+    const [projectsList, setProjectsList] = useState<any[]>([]);
+
+    useEffect(() => {
+        async function loadData() {
+            if (locale) {
+                try {
+                    const projectData = await loadProjectData(locale);
+                    setProjectsList(projectData);
+                } catch (error) {
+                    console.error("Failed to load data:", error);
+                }
+            }
+        }
+        loadData();
+    }, [locale]);
+
     const filteredProjects = filter ? projectsList.filter(project => project.type === filter) : projectsList;
 
     return (
@@ -58,4 +79,4 @@ export const ProjectList = ({ filter }: ProjectListProps) => {
             ))}
         </section>
     );
-}
+};
