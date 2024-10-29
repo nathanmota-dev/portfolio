@@ -4,11 +4,12 @@ import { useState, useEffect } from "react";
 import { ProjectCard } from "./project-card";
 import { useLocale } from "next-intl";
 import { loadProjectData } from "./loadData";
-import { FaCss3Alt, FaHtml5, FaNodeJs, FaPhp, FaPython, FaReact } from "react-icons/fa";
+import { FaCss3Alt, FaDocker, FaHtml5, FaJava, FaNodeJs, FaPhp, FaPython, FaReact } from "react-icons/fa";
 import { RiJavascriptFill, RiRemixiconLine } from "react-icons/ri";
 import { TbBrandNextjs, TbBrandVite } from "react-icons/tb";
-import { SiBootstrap, SiExpress, SiFastapi, SiFastify, SiMysql, SiPostgresql, SiReacthookform, SiSass, SiScrollreveal, SiShadcnui, SiStyledcomponents, SiSwiper, SiTailwindcss, SiZod } from "react-icons/si";
+import { SiAuth0, SiBootstrap, SiExpress, SiFastapi, SiFastify, SiHibernate, SiMdx, SiMysql, SiPostgresql, SiReacthookform, SiSass, SiScrollreveal, SiShadcnui, SiSpringboot, SiStyledcomponents, SiSwiper, SiTailwindcss, SiZod } from "react-icons/si";
 import { BiLogoTypescript } from "react-icons/bi";
+import { DiRedis } from "react-icons/di";
 
 const techIcons = {
     "React": FaReact,
@@ -36,7 +37,16 @@ const techIcons = {
     "RemixIcon": RiRemixiconLine,
     "React-Icons": FaReact,
     "Python": FaPython,
-    "PostgreSQL": SiPostgresql
+    "PostgreSQL": SiPostgresql,
+    "Java": FaJava,
+    "Hibernate": SiHibernate,
+    "Docker": FaDocker,
+    "Spring Boot": SiSpringboot,
+    "Redis": DiRedis,
+    "NextAuth": SiAuth0,
+    "Auth0": SiAuth0,
+    "@next/mdx": SiMdx,
+    "Shadcn.ui": SiShadcnui
 };
 
 interface ProjectListProps {
@@ -75,6 +85,7 @@ export const ProjectList = ({ filter }: ProjectListProps) => {
                     techIcons={techIcons}
                     githubUrl={project.githubUrl}
                     deployUrl={project.deployUrl}
+                    developing={project.developing}
                 />
             ))}
         </section>

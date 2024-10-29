@@ -1,5 +1,20 @@
 [
     {
+        "image": "projects/blog.JPG",
+        "title": "Blog com Next",
+        "description": "O objetivo do blog é permitir a criação de novos posts de forma dinâmica, utilizando arquivos MDX onde cada arquivo MDX criado gera automaticamente uma rota.",
+        "technologies": [
+            "Next",
+            "TailwindCSS",
+            "Shadcn.ui",
+            "React-Icons",
+            "@next/mdx"
+        ],
+        "githubUrl": "https://github.com/nathanmota-dev/blog-nextjs",
+        "deployUrl": "https://blog-do-nathan.vercel.app/",
+        "type": "frontend"
+    },
+    {
         "image": "projects/TechVantage.JPG",
         "title": "Tech Vantage - Site Corporativo",
         "description": "Projeto Final Programação para Internet desenvolvendo um sistema funcional com alguns requisitos como Cadastro de Formulário e Impressão de Dados",
@@ -16,6 +31,22 @@
         "type": "fullstack"
     },
     {
+        "image": "projects/Todo.jpg",
+        "title": "Todo List - MERN Stack",
+        "description": "POC - Todo List feito com o objetivo de realizar as 4 operações de um CRUD utilizando um banco de dados não relacional, e também foi feito a realização de um Sistema de Login Completo",
+        "technologies": [
+            "MongoDB",
+            "Express",
+            "React",
+            "Node",
+            "Styled-Components",
+            "Vite"
+        ],
+        "githubUrl": "https://github.com/nathanmota-dev/todo-list-mern-stack",
+        "deployUrl": "https://todo-list-mern-stack.vercel.app/",
+        "type": "fullstack"
+    },
+    {
         "image": "projects/Coffee-LP.JPG",
         "title": "Landing Page Meow Café",
         "description": "Projeto proposto pela Codante onde o objetivo foi dar a vida ao design do Meow Café transformando-o em uma página funcional e responsiva sem o uso de frameworks.",
@@ -27,6 +58,38 @@
         "githubUrl": "https://github.com/nathanmota-dev/landing-page-meow-cafe",
         "deployUrl": "https://nathanmota-dev.github.io/landing-page-meow-cafe/",
         "type": "frontend"
+    },
+    {
+        "image": "projects/poo2.JPG",
+        "title": "API - MedAgenda",
+        "description": "Med Agenda é um projeto desenvolvido para o gerenciamento de um consultório médico, incluindo a gestão de pacientes, doutores e consultas",
+        "technologies": [
+            "Java",
+            "Spring Boot",
+            "PostgreSQL",
+            "Hibernate",
+            "Docker",
+            "Vite",
+            "React",
+            "TypeScript",
+            "TailwindCSS"
+        ],
+        "githubUrl": "https://github.com/nathanmota-dev/final-project-poo2",
+        "deployUrl": "https://final-project-poo2.vercel.app/",
+        "type": "backend"
+    },
+    {
+        "image": "projects/FastAPI.JPG",
+        "title": "API - FastAPI",
+        "description": "API feita com FastApi com o objetivo de construir uma API roubusta e modularizada em Python onde utilizei foi reaproveitada na minha Iniciação Científica",
+        "technologies": [
+            "Python",
+            "FastAPI",
+            "PostgreSQL"
+        ],
+        "githubUrl": "https://github.com/nathanmota-dev/node-com-fastify",
+        "deployUrl": "",
+        "type": "backend"
     },
     {
         "image": "projects/Insove-LP.JPG",
@@ -44,19 +107,6 @@
         "type": "frontend"
     },
     {
-        "image": "projects/ListaDePaises.JPG",
-        "title": "Lista de Países",
-        "description": "Projeto proposto pela Codante onde o objetivo foi utilizar uma API para objter os dados fazendo uma aplicação reponsiva que use Server Components, Data fetching, Nested layouts, Routes e Loading",
-        "technologies": [
-            "Next",
-            "TypeScript",
-            "TailwindCSS"
-        ],
-        "githubUrl": "https://github.com/nathanmota-dev/mp-lista-de-paises-next",
-        "deployUrl": "https://mp-lista-de-paises-next-delta.vercel.app/",
-        "type": "frontend"
-    },
-    {
         "image": "projects/Buscador.JPG",
         "title": "Buscador de Nomes",
         "description": "Projeto Final de Programação para Internet onde o objetivo foi criar um buscador de nomes consumindo uma API no backend, tratando os dados e exibindo no frontend com um histórico de consultas.",
@@ -68,25 +118,6 @@
         ],
         "githubUrl": "https://github.com/nathanmota-dev/programacao-para-internet-2",
         "deployUrl": "https://programacao-para-internet-2.vercel.app/",
-        "type": "fullstack"
-    },
-    {
-        "image": "projects/Dash.JPG",
-        "title": "Dashboard",
-        "description": "Dashboard com página de Login, Cadastro, autenticação, criptografia e um DashBoard",
-        "technologies": [
-            "React",
-            "Vite",
-            "Node",
-            "Express",
-            "MySQL",
-            "SASS",
-            "ReactHookForm",
-            "React-Icons",
-            "Yup.js"
-        ],
-        "githubUrl": "https://github.com/nathanmota-dev/fullstack-auth-dash-client",
-        "deployUrl": "",
         "type": "fullstack"
     },
     {
@@ -116,32 +147,41 @@
         "type": "backend"
     },
     {
-        "image": "projects/FastAPI.JPG",
-        "title": "API - FastAPI",
-        "description": "API feita com FastApi com o objetivo de construir uma API roubusta e modularizada em Python onde utilizei foi reaproveitada na minha Iniciação Científica",
+        "image": "projects/habits.JPG",
+        "title": "Habit Tracker",
+        "description": "Med Agenda é um projeto desenvolvido para o gerenciamento de um consultório médico, incluindo a gestão de pacientes, doutores e consultas",
         "technologies": [
-            "Python",
-            "FastAPI",
-            "PostgreSQL"
+            "Next",
+            "TypeScript",
+            "TailwindCSS",
+            "PostgreSQL",
+            "NextAuth",
+            "Zod",
+            "Redis"
         ],
-        "githubUrl": "https://github.com/nathanmota-dev/node-com-fastify",
-        "deployUrl": "",
-        "type": "backend"
+        "githubUrl": "https://github.com/nathanmota-dev/habit-manager",
+        "deployUrl": "https://habit-manager-six.vercel.app/",
+        "type": "frontend",
+        "developing": "Em Desenvolvimento"
     },
     {
-        "image": "projects/Todo.jpg",
-        "title": "Todo List - MERN Stack",
-        "description": "POC - Todo List feito com o objetivo de realizar as 4 operações de um CRUD utilizando um banco de dados não relacional, e também foi feito a realização de um Sistema de Login Completo",
+        "image": "projects/Dash.JPG",
+        "title": "Dashboard",
+        "description": "Dashboard com página de Login, Cadastro, autenticação, criptografia e um DashBoard",
         "technologies": [
-            "MongoDB",
-            "Express",
             "React",
+            "Vite",
             "Node",
-            "Styled-Components",
-            "Vite"
+            "Express",
+            "MySQL",
+            "SASS",
+            "ReactHookForm",
+            "React-Icons",
+            "Yup.js"
         ],
-        "githubUrl": "https://github.com/nathanmota-dev/todo-list-mern-stack",
-        "deployUrl": "https://todo-list-mern-stack.vercel.app/",
-        "type": "fullstack"
+        "githubUrl": "https://github.com/nathanmota-dev/fullstack-auth-dash-client",
+        "deployUrl": "",
+        "type": "fullstack",
+        "developing": "Em Desenvolvimento"
     }
 ]

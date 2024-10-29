@@ -2,6 +2,7 @@ import Image, { StaticImageData } from "next/image";
 import { TechBadge } from "../../tech-badge";
 import { IconType } from "react-icons";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import { Badge } from "./badge";
 
 type ProjectCardProps = {
     image: string;
@@ -11,9 +12,10 @@ type ProjectCardProps = {
     techIcons: { [key: string]: IconType };
     githubUrl: string;
     deployUrl: string;
+    developing?: string;
 }
 
-export const ProjectCard = ({ image, title, description, technologies, techIcons, githubUrl, deployUrl }: ProjectCardProps) => {
+export const ProjectCard = ({ image, title, description, technologies, techIcons, githubUrl, deployUrl, developing }: ProjectCardProps) => {
 
     return (
         <div className="rounded-lg h-[550px] flex flex-col bg-white dark:bg-zinc-800  overflow-hidden border-2 border-gray-200 dark:border-gray-800 hover:border-emerald-500 opacity-70 hover:opacity-100 transition-all group">
@@ -29,9 +31,15 @@ export const ProjectCard = ({ image, title, description, technologies, techIcons
             </div>
 
             <div className="flex flex-1 flex-col p-8">
-                <strong className="font-medim text-gray-600 text-gray-400/80 dark:text-gray-400 dark:text-gray-50/90 group-hover:text-emerald-500 transition-all">
-                    {title}
-                </strong>
+                <div className="flex justify-center text-center items-center gap-x-4">
+                    <strong className="font-medim text-gray-600 text-gray-400/80 dark:text-gray-400 dark:text-gray-50/90 group-hover:text-emerald-500 transition-all">
+                        {title}
+                    </strong>
+                    <span className="">
+                        {developing && <Badge name={developing} />}
+                    </span>
+                </div>
+
                 <p className="mt-2 text-gray-500 dark:text-gray-400 line-clamp-5">
                     {description}
                 </p>
