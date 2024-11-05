@@ -15,6 +15,21 @@
         "type": "frontend"
     },
     {
+        "image": "projects/dashboard.JPG",
+        "title": "Full Stack Dashboard",
+        "description": "Dashboard built with Next.js featuring User CRUD, Authentication, Encryption, Different User Permissions, and Data Retrieval on Access",
+        "technologies": [
+            "Next",
+            "TailwindCSS",
+            "Shadcn.ui",
+            "MongoDB",
+            "Docker"
+        ],
+        "githubUrl": "https://github.com/nathanmota-dev/dashboard-next-crud",
+        "deployUrl": "https://dashboard-next-crud.vercel.app/",
+        "type": "fullstack"
+    },    
+    {
         "image": "projects/TechVantage.JPG",
         "title": "Tech Vantage - Corporate Website",
         "description": "Final Project for Internet Programming developing a functional system with requirements like Form Registration and Data Printing",
@@ -162,26 +177,6 @@
         "githubUrl": "https://github.com/nathanmota-dev/habit-manager",
         "deployUrl": "https://habit-manager-six.vercel.app/",
         "type": "frontend",
-        "developing": "In Development"
-    },
-    {
-        "image": "projects/Dash.JPG",
-        "title": "Dashboard",
-        "description": "Dashboard with Login, Registration, authentication, encryption, and a Dashboard page.",
-        "technologies": [
-            "React",
-            "Vite",
-            "Node",
-            "Express",
-            "MySQL",
-            "SASS",
-            "ReactHookForm",
-            "React-Icons",
-            "Yup.js"
-        ],
-        "githubUrl": "https://github.com/nathanmota-dev/fullstack-auth-dash-client",
-        "deployUrl": "",
-        "type": "fullstack",
         "developing": "In Development"
     }
 ]

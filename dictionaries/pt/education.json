@@ -3,7 +3,7 @@
         "logo": "/education/logoUFU.png",
         "institution": "Universidade Federal de Uberlândia - Monte Carmelo",
         "course": "Sistemas de Informação",
-        "date": "ago 2019 - presente",
+        "date": "Conclusão: 06/2025",
         "description": "Aprendizado no desenvolvimento de software em todas as etapas, banco de dados, modelagem e engenharia de software, inteligência artificial, entre outros.",
         "link": "https://facom.ufu.br/graduacao/sistemas-de-informacao-campus-monte-carmelo",
         "technologies": [
@@ -22,11 +22,24 @@
         ]
     },
     {
+        "logo": "/education/logoUnesp.png",
+        "institution": "Universidade Estadual Paulista Júlio de Mesquita Filho",
+        "course": "Técnico em Informática",
+        "date": "Concluído",
+        "description": "Desenvolvimento de sistemas Desktop e Web, Redes de Computadores e Manutenção de Computadores.",
+        "link": "https://facom.ufu.br/graduacao/sistemas-de-informacao-campus-monte-carmelo",
+        "technologies": [
+            "Java",
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
         "logo": "/education/react.svg",
         "institution": "Luiz Otávio Miranda e Matheus Fraga",
         "course": "React.Js e Next.js",
-        "date": "ago 2023 - fev 2024",
-        "description": "Desenvolvimento de interfaces com React, Next e Node no Backend",
+        "date": "Concluído",
+        "description": "Desenvolvimento de interfaces com React e Next, contrução de APIs com Node e uso de TypeScript.",
         "link": "https://facom.ufu.br/graduacao/sistemas-de-informacao-campus-monte-carmelo",
         "technologies": [
             "React",
@@ -34,19 +47,6 @@
             "Node",
             "JavaScript",
             "TypeScript"
-        ]
-    },
-    {
-        "logo": "/education/logoUnesp.png",
-        "institution": "Universidade Estadual Paulista Júlio de Mesquita Filho",
-        "course": "Técnico em Informática",
-        "date": "jan 2015 - dez 2016",
-        "description": "Desenvolvimento de sistemas Desktop E Web, Redes de Computadores",
-        "link": "https://facom.ufu.br/graduacao/sistemas-de-informacao-campus-monte-carmelo",
-        "technologies": [
-            "Java",
-            "HTML",
-            "CSS"
         ]
     }
 ]

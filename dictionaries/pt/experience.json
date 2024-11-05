@@ -1,29 +1,26 @@
 [
     {
-        "logo": "/education/logoWorkana.png",
-        "institution": "Workana",
-        "course": "Freelancer Front-End",
-        "date": "out 2023 - presente",
-        "description": "Implementação de novas features e realização de interfaces do zero.",
-        "link": "https://www.linkedin.com/company/workana/",
+        "logo": "/education/logoUFU.png",
+        "institution": "UFU",
+        "course": "Iniciação Científica - Pesquisa sobre falhas de Sistemas Operacionais",
+        "date": "Mar 2024 - presente",
+        "description": "Pesquisa sobre falha em Sistemas Operacionais utilizando Python para gerar relatórios de solução.",
+        "link": "",
         "technologies": [
-            "React",
-            "Node",
-            "Express",
-            "Tailwind",
-            "StyledComponents",
-            "MySQL",
-            "MongoDB",
-            "PostgreSQL",
-            "Prisma"
+            "Python",
+            "FastAPI",
+            "PosgreSQL",
+            "ReactJS",
+            "Análise de Dados",
+            "Relatórios de Confiabilidade"
         ]
     },
     {
         "logo": "/education/logoUFU.png",
         "institution": "UFU",
-        "course": "Monitor de Programação Web",
-        "date": "jun 2023 - dez 2023",
-        "description": "Monitoria da disciplina de Programação para Internet, auxiliando os alunos com dúvidas e correção de exercícios.",
+        "course": "Professor de Programação Web",
+        "date": "Jan 2023 - Dez 2024",
+        "description": "Ministrei aulas de HTML e CSS para adolescentes, com foco em projetos práticos, e atuei como Monitor na disciplina de Programação para Internet, auxiliando alunos com dúvidas e revisão de exercícios.",
         "link": "",
         "technologies": [
             "HTML",
@@ -34,33 +31,37 @@
         ]
     },
     {
+        "logo": "/education/logoWorkana.png",
+        "institution": "Freelancer",
+        "course": "Front-End Developer",
+        "date": "Ago 2023 - Mai 2024",
+        "description": "Desenvolvimento de sites personalizados para pequenas e médias empresas, desde a concepção de layouts até a implementação completa, com criação de interfaces responsivas.",
+        "link": "",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "TypeScript",
+            "ReactJS",
+            "NextJs",
+            "StyledComponents",
+            "TailwindCSS"
+        ]
+    },
+    {
         "logo": "/education/logoTecMob.png",
         "institution": "TecMob",
         "course": "Gestor de Tráfego - E-commerce",
-        "date": "dez 2020 - maio 2022",
-        "description": "Gerenciamento de campanhas de publicidade de alto impacto em plataformas como Facebook Ads e Google Ads, além de estratégias de venda e rotina administrativa.",
+        "date": "Dez 2020 - Mai 2022",
+        "description": "Gestão de campanhas publicitárias de alto impacto em plataformas como Facebook Ads e Google Ads, além de estratégias de vendas e rotinas administrativas.",
         "link": "",
         "technologies": [
             "Facebook Ads",
             "Google Ads",
-            "Tiktok Ads",
+            "TikTok Ads",
             "Excel",
             "Google Analytics",
             "Google Tag Manager"
-        ]
-    },
-    {
-        "logo": "/education/logoCorreios.png",
-        "institution": "Correios",
-        "course": "Auxiliar administrativo - Jovem Aprendiz",
-        "date": "nov 2015 - nov 2016",
-        "description": "Rotina administrativa como organização de documentos, atendimento ao cliente, gerenciamento de correspondências e criação de planilhas e atendimento ao público.",
-        "link": "https://www.linkedin.com/company/correios/",
-        "technologies": [
-            "Excel",
-            "Word",
-            "PowerPoint",
-            "Senai"
         ]
     }
 ]

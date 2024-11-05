@@ -15,9 +15,9 @@
     },
     "About": {
         "title": "Sobre mim",
-        "description1": "Minha jornada na área da tecnologia começou em 2016, quando me formei como Técnico em Informática pela Universidade Estadual Paulista (Unesp). Em agosto de 2019, iniciei a graduação em Sistemas de Informação pela Universidade Federal de Uberlândia (UFU) e, desde então, tenho buscado constantemente aprender e me aprofundar na área.",
-        "description2": "Atualmente, sou Desenvolvedor Full Stack e, embora atue em todas as camadas do desenvolvimento web, tenho uma forte inclinação para o Front-End, sempre buscando manter um alto padrão de qualidade de código.",
-        "description3": "Além disso, possuo experiência em Gestão de Tráfego, Análise de Dados e Atividades Administrativas, áreas em que atuei por mais de dois anos. Estou sempre em busca de novos desafios e oportunidades para aprender e crescer como profissional.",
+        "description1": "Minha trajetória na tecnologia começou com minha formação como Técnico em Informática pela Unesp FCAV em Jaboticabal, onde eu desenvolvi meus primeiros projetos de programação. Em seguida, iniciei a graduação em Sistemas de Informação na Universidade Federal de Uberlândia (UFU), o que ampliou ainda mais minha base técnica e acadêmica.",
+        "description2": "Atualmente, atuo como Desenvolvedor Full-Stack, trabalhando em todas as etapas do desenvolvimento web. Minha experiência inclui tanto o Front-End, com a criação de interfaces, quanto o Back-End, desenvolvendo APIs robustas e escaláveis com Node.js.",
+        "description3": "Tenho também sólidos conhecimentos em bancos de dados relacionais e não relacionais, além de experiência com ORMs e infraestrutura como Docker.",
         "button": "Baixar CV"
     },
     "Projects": {
@@ -61,6 +61,6 @@
         "education-title": "Experiências Educacionais",
         "education-description": "Aqui estão algumas das minhas experiências educacionais, onde adquiri conhecimento e habilidades.",
         "experience-title": "Experiências Profissionais",
-        "experience-description": "Aqui estão algumas das minhas experiências profissionais. Estou sempre aberto a novos desafios e projetos. Vamos trabalhar juntos para criar soluções incríveis!"    
+        "experience-description": "Aqui estão algumas das minhas experiências profissionais. Estou sempre aberto a novos desafios e projetos. Vamos trabalhar juntos para criar soluções incríveis!"
     }
 }
