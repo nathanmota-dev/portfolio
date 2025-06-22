@@ -36,7 +36,10 @@
         "h1": "Contact Me",
         "p": "Get in touch with me",
         "subtitle1": "Talk to me",
-        "subtitle2": "Describe your interest"
+        "subtitle2": "Describe your interest",
+        "writeMe": "Send a message",
+        "whatsapp": "Chat on Whatsapp",
+        "linkedin": "Connect on Linkedin"
     },
     "Footer": {
         "p1": "2024 © Nathan Mota - All rights reserved.",

@@ -4,34 +4,33 @@ import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { FormSection } from "./form";
 import { useTranslations } from "next-intl";
 
+export const ContactSection = () => {
 
-const cards = [
+    const t = useTranslations("Contact");
+
+    const cards = [
     {
         icon: <MdMarkEmailRead />,
         title: "Email",
         subtitle: "nathansmota@gmail.com",
-        action: "Escrever para mim",
+        action: t("writeMe"),
         link: "mailto:nathansmota@gmail.com"
     },
     {
         icon: <FaWhatsapp />,
         title: "Whatsapp",
         subtitle: "(16) 99993-6596",
-        action: "Conversar no Whatsapp",
+         action: t("whatsapp"),
         link: "https://wa.me/5516999936596"
     },
     {
         icon: <FaLinkedin />,
         title: "LinkedIn",
         subtitle: "nathansmota",
-        action: "Conectar no LinkedIn",
+        action: t("linkedin"),
         link: "https://www.linkedin.com/in/nathansmota/"
     }
 ]
-
-export const ContactSection = () => {
-
-    const t = useTranslations("Contact");
 
     return (
         <div className="w-full h-auto bg-white dark:bg-black justify-center text-center pb-20 md:pt-10 pt-6">

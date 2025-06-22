@@ -36,7 +36,10 @@
         "h1": "Contate-me",
         "p": "Entre em contato comigo",
         "subtitle1": "Fale comigo",
-        "subtitle2": "Descreva seu interesse"
+        "subtitle2": "Descreva seu interesse",
+        "writeMe": "Enviar uma mensagem",
+        "whatsapp": "Conversar no Whatsapp",
+        "linkedin": "Conectar ao Linkedin"
     },
     "Footer": {
         "p1": "2024 © Nathan Mota - Todos os direitos Reservados.",
