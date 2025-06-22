@@ -1,6 +1,6 @@
 [
     {
-        "image": "projects/distributed-systems.JPEG",
+        "image": "projects/distributed.jpeg",
         "title": "Video Lecture Platform with Distributed System",
         "description": "Online learning platform with queue management for video uploads, cloud storage, and a course authentication and management system.",
         "technologies": [

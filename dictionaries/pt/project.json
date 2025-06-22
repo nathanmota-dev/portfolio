@@ -1,6 +1,6 @@
 [
     {
-        "image": "projects/distributed-systems.JPEG",
+        "image": "projects/distributed.jpeg",
         "title": "Plataforma de Videoaulas com Sistema Distribuído",
         "description": "Plataforma de ensino online com gerenciamento de filas para envio de vídeos, armazenamento em nuvem e sistema de autenticação e gerenciamento de cursos.",
         "technologies": [
