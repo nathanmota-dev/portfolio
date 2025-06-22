@@ -4,10 +4,10 @@ import { useState, useEffect } from "react";
 import { ProjectCard } from "./project-card";
 import { useLocale } from "next-intl";
 import { loadProjectData } from "./loadData";
-import { FaCss3Alt, FaDocker, FaHtml5, FaJava, FaNodeJs, FaPhp, FaPython, FaReact } from "react-icons/fa";
+import { FaAws, FaCss3Alt, FaDocker, FaHtml5, FaJava, FaNodeJs, FaPhp, FaPython, FaReact } from "react-icons/fa";
 import { RiJavascriptFill, RiRemixiconLine } from "react-icons/ri";
-import { TbBrandNextjs, TbBrandVite } from "react-icons/tb";
-import { SiAuth0, SiBootstrap, SiExpress, SiFastapi, SiFastify, SiHibernate, SiMdx, SiMysql, SiPostgresql, SiReacthookform, SiSass, SiScrollreveal, SiShadcnui, SiSpringboot, SiStyledcomponents, SiSwiper, SiTailwindcss, SiZod } from "react-icons/si";
+import { TbBrandNextjs, TbBrandThreejs, TbBrandVite } from "react-icons/tb";
+import { SiAmazonaws, SiAuth0, SiBootstrap, SiExpress, SiFastapi, SiFastify, SiHibernate, SiMdx, SiMysql, SiPostgresql, SiRabbitmq, SiReacthookform, SiSass, SiScrollreveal, SiShadcnui, SiSpringboot, SiStyledcomponents, SiSwiper, SiTailwindcss, SiZod } from "react-icons/si";
 import { BiLogoTypescript } from "react-icons/bi";
 import { DiRedis } from "react-icons/di";
 
@@ -46,7 +46,12 @@ const techIcons = {
     "NextAuth": SiAuth0,
     "Auth0": SiAuth0,
     "@next/mdx": SiMdx,
-    "Shadcn.ui": SiShadcnui
+    "Shadcn.ui": SiShadcnui,
+    "AWS": FaAws,
+    "Amazon EC2": SiAmazonaws,
+    "Amazon S3": SiAmazonaws,
+    "RabbitMQ": SiRabbitmq,
+    "Three.js": TbBrandThreejs,
 };
 
 interface ProjectListProps {

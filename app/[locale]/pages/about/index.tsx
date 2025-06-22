@@ -18,7 +18,7 @@ export const AboutSection = () => {
             <p className="text-justify text-md sm:text-lg dark:text-gray-300 mt-6 leading-relaxed max-w-4xl ">
                 {t("description3")}
             </p>
-            <a href="https://drive.google.com/file/d/1oNX3k44zyyuz9kHNQhASPzOG7K7YqR1j/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/1dtjg3OqsIEZbdQkwatU7UUkEHZgdFt1b/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                 <Button className="mt-6 sm:mt-12">{t("button")}</Button>
             </a>
 

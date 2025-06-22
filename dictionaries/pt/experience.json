@@ -1,67 +1,60 @@
 [
     {
+        "logo": "/education/logoVonBraun.jpeg",
+        "institution": "Von Braun Labs",
+        "course": "Desenvolvedor Full Stack",
+        "date": "Dez 2024 - presente",
+        "description": "Atuação no desenvolvimento e manutenção da plataforma ChipInventor, com foco em tarefas full-stack. No back-end, trabalhei com PHP realizando criação e manutenção de CRUDs, correções de bugs e refatoração de código legado. No front-end, reformulei páginas com HTML, CSS, Bootstrap e JavaScript. Criação de dashboards e componentes interativos integrados ao back-end. Utilização de GitHub para versionamento e suporte em testes de deploy.",
+        "link": "",
+        "technologies": [
+            "PHP",
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "JavaScript",
+            "GitHub"
+        ]
+    },
+    {
         "logo": "/education/logoUFU.png",
-        "institution": "UFU",
-        "course": "Iniciação Científica - Pesquisa sobre falhas de Sistemas Operacionais",
-        "date": "Mar 2024 - presente",
-        "description": "Pesquisa sobre falha em Sistemas Operacionais utilizando Python para gerar relatórios de solução.",
+        "institution": "X-RAT - UFU",
+        "course": "Desenvolvedor Full Stack",
+        "date": "Fev 2024 - presente",
+        "description": "Desenvolvimento de sistema Full Stack para geração automática de relatórios de confiabilidade de sistemas operacionais, utilizando Python com FastAPI no backend e React com PostgreSQL no frontend.",
         "link": "",
         "technologies": [
             "Python",
             "FastAPI",
-            "PosgreSQL",
-            "ReactJS",
-            "Análise de Dados",
-            "Relatórios de Confiabilidade"
+            "PostgreSQL",
+            "React"
+        ]
+    },
+    {
+        "logo": "/education/logoWorkana.png",
+        "institution": "Freelancer",
+        "course": "Desenvolvedor Web",
+        "date": "2023 - 2024",
+        "description": "Desenvolvimento de sites institucionais e profissionais com Next.js, NextAuth, PostgreSQL, Tailwind CSS e Shadcn UI. Responsável por coleta de requisitos, desenvolvimento, deploy e manutenção. Projetos realizados incluem páginas para consultório psicológico, laboratório acadêmico e empresa de convites.",
+        "link": "",
+        "technologies": [
+            "Next.js",
+            "NextAuth",
+            "PostgreSQL",
+            "TailwindCSS",
+            "Shadcn UI"
         ]
     },
     {
         "logo": "/education/logoUFU.png",
         "institution": "UFU",
         "course": "Professor de Programação Web",
-        "date": "Jan 2023 - Dez 2024",
-        "description": "Ministrei aulas de HTML e CSS para adolescentes, com foco em projetos práticos, e atuei como Monitor na disciplina de Programação para Internet, auxiliando alunos com dúvidas e revisão de exercícios.",
+        "date": "Jun 2024 - Dez 2024",
+        "description": "Ministrei aulas de desenvolvimento web para adolescentes, ensinando noções básicas de informática até criação de sites com HTML, CSS e introdução ao Bootstrap. Ao final, os alunos entregaram projetos próprios como trabalho final.",
         "link": "",
         "technologies": [
             "HTML",
             "CSS",
-            "JavaScript",
-            "PHP",
-            "MySQL"
-        ]
-    },
-    {
-        "logo": "/education/logoWorkana.png",
-        "institution": "Freelancer",
-        "course": "Front-End Developer",
-        "date": "Ago 2023 - Mai 2024",
-        "description": "Desenvolvimento de sites personalizados para pequenas e médias empresas, desde a concepção de layouts até a implementação completa, com criação de interfaces responsivas.",
-        "link": "",
-        "technologies": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "TypeScript",
-            "ReactJS",
-            "NextJs",
-            "StyledComponents",
-            "TailwindCSS"
-        ]
-    },
-    {
-        "logo": "/education/logoTecMob.png",
-        "institution": "TecMob",
-        "course": "Gestor de Tráfego - E-commerce",
-        "date": "Dez 2020 - Mai 2022",
-        "description": "Gestão de campanhas publicitárias de alto impacto em plataformas como Facebook Ads e Google Ads, além de estratégias de vendas e rotinas administrativas.",
-        "link": "",
-        "technologies": [
-            "Facebook Ads",
-            "Google Ads",
-            "TikTok Ads",
-            "Excel",
-            "Google Analytics",
-            "Google Tag Manager"
+            "Bootstrap"
         ]
     }
 ]

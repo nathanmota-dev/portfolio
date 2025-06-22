@@ -1,5 +1,57 @@
 [
     {
+        "image": "projects/distributed-systems.JPEG",
+        "title": "Video Lecture Platform with Distributed System",
+        "description": "Online learning platform with queue management for video uploads, cloud storage, and a course authentication and management system.",
+        "technologies": [
+            "Node",
+            "Fastify",
+            "RabbitMQ",
+            "AWS",
+            "Amazon S3",
+            "PostgreSQL",
+            "Next",
+            "Amazon EC2"
+        ],
+        "githubUrl": "https://github.com/nathanmota-dev/systems-distributed",
+        "type": "fullstack"
+    },
+    {
+        "image": "projects/montebot.JPG",
+        "title": "Monte Bot - Robotics Laboratory",
+        "description": "Institutional website with an application form and authentication using NextAuth (GitHub login). Includes a dashboard for viewing applicants and their data.",
+        "technologies": [
+            "Next",
+            "NextAuth",
+            "PostgreSQL",
+            "TailwindCSS",
+            "Shadcn/ui",
+            "Three.js"
+        ],
+        "githubUrl": "https://github.com/monte-bot/montebot",
+        "deployUrl": "https://monte-bot.vercel.app/",
+        "type": "fullstack"
+    },
+    {
+        "image": "projects/poo2.JPG",
+        "title": "MedAgenda",
+        "description": "Med Agenda is a project developed for managing a medical clinic, including the management of patients, doctors, and appointments.",
+        "technologies": [
+            "Java",
+            "Spring Boot",
+            "PostgreSQL",
+            "Hibernate",
+            "Docker",
+            "Vite",
+            "React",
+            "TypeScript",
+            "TailwindCSS"
+        ],
+        "githubUrl": "https://github.com/nathanmota-dev/final-project-poo2",
+        "deployUrl": "https://final-project-poo2.vercel.app/",
+        "type": "backend"
+    },
+    {
         "image": "projects/blog.JPG",
         "title": "Blog with Next",
         "description": "The goal of the blog is to allow the creation of new posts dynamically, using MDX files where each created MDX file automatically generates a route.",
@@ -28,7 +80,7 @@
         "githubUrl": "https://github.com/nathanmota-dev/dashboard-next-crud",
         "deployUrl": "https://dashboard-next-crud.vercel.app/",
         "type": "fullstack"
-    },    
+    },
     {
         "image": "projects/TechVantage.JPG",
         "title": "Tech Vantage - Corporate Website",
@@ -73,25 +125,6 @@
         "githubUrl": "https://github.com/nathanmota-dev/landing-page-meow-cafe",
         "deployUrl": "https://nathanmota-dev.github.io/landing-page-meow-cafe/",
         "type": "frontend"
-    },
-    {
-        "image": "projects/poo2.JPG",
-        "title": "API - MedAgenda",
-        "description": "Med Agenda is a project developed for managing a medical clinic, including the management of patients, doctors, and appointments.",
-        "technologies": [
-            "Java",
-            "Spring Boot",
-            "PostgreSQL",
-            "Hibernate",
-            "Docker",
-            "Vite",
-            "React",
-            "TypeScript",
-            "TailwindCSS"
-        ],
-        "githubUrl": "https://github.com/nathanmota-dev/final-project-poo2",
-        "deployUrl": "https://final-project-poo2.vercel.app/",
-        "type": "backend"
     },
     {
         "image": "projects/FastAPI.JPG",

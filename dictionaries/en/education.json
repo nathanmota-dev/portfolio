@@ -1,10 +1,10 @@
 [
     {
         "logo": "/education/logoUFU.png",
-        "institution": "Federal University of Uberlândia - Monte Carmelo",
-        "course": "Information Systems",
-        "date": "Completion: 06/2025",
-        "description": "Learning in software development at all stages, databases, modeling and software engineering, artificial intelligence, among others.",
+        "institution": "Federal University of Uberlândia",
+        "course": "Bachelor’s Degree in Information Systems",
+        "date": "Expected Graduation: 08/2025",
+        "description": "Comprehensive training focused on software systems development, emphasizing software engineering, data modeling, algorithms, databases, artificial intelligence, networks, and modern Full Stack development practices. Active participation in academic projects and scientific research.",
         "link": "https://facom.ufu.br/graduacao/sistemas-de-informacao-campus-monte-carmelo",
         "technologies": [
             "C",
@@ -23,30 +23,15 @@
     },
     {
         "logo": "/education/logoUnesp.png",
-        "institution": "São Paulo State University Júlio de Mesquita Filho",
-        "course": "Computer Technician",
+        "institution": "São Paulo State University (UNESP)",
+        "course": "Technical Degree in Computer Science",
         "date": "Completed",
-        "description": "Development of Desktop and Web systems, Computer Networks, and Computer Maintenance.",
-        "link": "https://facom.ufu.br/graduacao/sistemas-de-informacao-campus-monte-carmelo",
+        "description": "Training focused on the development of desktop and web systems, computer networking, and hardware maintenance.",
+        "link": "https://www.fcav.unesp.br/",
         "technologies": [
             "Java",
             "HTML",
             "CSS"
-        ]
-    },
-    {
-        "logo": "/education/react.svg",
-        "institution": "Luiz Otávio Miranda and Matheus Fraga",
-        "course": "React.Js and Next.js",
-        "date": "Completed",
-        "description": "Development of interfaces with React and Next, building APIs with Node, and using TypeScript.",
-        "link": "https://facom.ufu.br/graduacao/sistemas-de-informacao-campus-monte-carmelo",
-        "technologies": [
-            "React",
-            "Next",
-            "Node",
-            "JavaScript",
-            "TypeScript"
         ]
     }
 ]

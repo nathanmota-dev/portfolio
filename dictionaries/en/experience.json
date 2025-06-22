@@ -1,67 +1,60 @@
 [
     {
+        "logo": "/education/logoVonBraun.jpeg",
+        "institution": "Von Braun Labs",
+        "course": "Full Stack Developer",
+        "date": "Dec 2024 - present",
+        "description": "Worked on the development and maintenance of the ChipInventor platform, focusing on full-stack tasks. On the back end, created and maintained CRUDs, fixed bugs, and refactored legacy PHP code. On the front end, redesigned pages using HTML, CSS, Bootstrap, and JavaScript. Built dashboards and interactive components integrated with the backend. Used GitHub for version control and supported deployment testing.",
+        "link": "",
+        "technologies": [
+            "PHP",
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "JavaScript",
+            "GitHub"
+        ]
+    },
+    {
         "logo": "/education/logoUFU.png",
-        "institution": "UFU",
-        "course": "Scientific Initiation - Research on Operating System Failures",
-        "date": "Mar 2024 - present",
-        "description": "Research on failures in Operating Systems using Python to generate solution reports.",
+        "institution": "X-RAT - UFU",
+        "course": "Full Stack Developer",
+        "date": "Feb 2024 - present",
+        "description": "Development of a Full Stack system for automatic generation of operating system reliability reports, using Python with FastAPI on the backend and React with PostgreSQL on the frontend.",
         "link": "",
         "technologies": [
             "Python",
             "FastAPI",
             "PostgreSQL",
-            "ReactJS",
-            "Data Analysis",
-            "Reliability Reports"
-        ]
-    },
-    {
-        "logo": "/education/logoUFU.png",
-        "institution": "UFU",
-        "course": "Web Programming Teacher",
-        "date": "Jan 2023 - Dec 2024",
-        "description": "I taught HTML and CSS classes to teenagers, focusing on practical projects, and served as a Monitor in the Internet Programming course, assisting students with questions and exercise reviews.",
-        "link": "",
-        "technologies": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "PHP",
-            "MySQL"
+            "React"
         ]
     },
     {
         "logo": "/education/logoWorkana.png",
         "institution": "Freelancer",
-        "course": "Front-End Developer",
-        "date": "Aug 2023 - May 2024",
-        "description": "Development of customized websites for small and medium-sized businesses, from layout design to full implementation, with the creation of responsive interfaces.",
+        "course": "Web Developer",
+        "date": "2023 - 2024",
+        "description": "Developed institutional and professional websites using Next.js, NextAuth, PostgreSQL, Tailwind CSS, and Shadcn UI. Responsible for requirements gathering, development, deployment, and maintenance. Projects included websites for a psychology clinic, an academic lab, and an invitation company.",
+        "link": "",
+        "technologies": [
+            "Next.js",
+            "NextAuth",
+            "PostgreSQL",
+            "TailwindCSS",
+            "Shadcn UI"
+        ]
+    },
+    {
+        "logo": "/education/logoUFU.png",
+        "institution": "UFU",
+        "course": "Web Programming Instructor",
+        "date": "Jun 2024 - Dec 2024",
+        "description": "Taught web development to teenagers, covering basic computer skills through to website creation with HTML, CSS, and an introduction to Bootstrap. At the end of the course, students delivered their own websites as final projects.",
         "link": "",
         "technologies": [
             "HTML",
             "CSS",
-            "JavaScript",
-            "TypeScript",
-            "ReactJS",
-            "NextJs",
-            "StyledComponents",
-            "TailwindCSS"
-        ]
-    },
-    {
-        "logo": "/education/logoTecMob.png",
-        "institution": "TecMob",
-        "course": "Traffic Manager - E-commerce",
-        "date": "Dec 2020 - May 2022",
-        "description": "Management of high-impact advertising campaigns on platforms like Facebook Ads and Google Ads, in addition to sales strategies and administrative routines.",
-        "link": "",
-        "technologies": [
-            "Facebook Ads",
-            "Google Ads",
-            "TikTok Ads",
-            "Excel",
-            "Google Analytics",
-            "Google Tag Manager"
+            "Bootstrap"
         ]
     }
 ]
