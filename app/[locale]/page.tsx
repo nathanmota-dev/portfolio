@@ -5,7 +5,8 @@ import { ContactSection } from "./pages/contact-section";
 import { EducationExperience } from "./pages/education-experience";
 import HeroSection from "./pages/hero-section";
 import { ProjectsSection } from "./pages/projects";
-import { SkillsSection } from "./pages/skills-section";
+import SkillsSection from "./pages/skills-section";
+
 
 export default function Home() {
     return (
