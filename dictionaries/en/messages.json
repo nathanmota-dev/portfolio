@@ -42,7 +42,7 @@
         "linkedin": "Connect on Linkedin"
     },
     "Footer": {
-        "p1": "2024 © Nathan Mota - All rights reserved.",
+        "p1": "2025 © Nathan Mota - All rights reserved.",
         "p2": "Developed with Next, TailwindCSS, React Icons and Shadcn.ui"
     },
     "Form": {
@@ -52,7 +52,11 @@
         "email-placeholder": "Your best email",
         "message": "Message",
         "message-placeholder": "Write your message here...",
-        "button": "Send Message"
+        "button": "Send Message",
+        "toast-success-title": "Message sent!",
+        "toast-success-description": "Thank you for contacting me. I will reply soon!",
+        "toast-error-title": "Error sending",
+        "toast-error-description": "An error occurred while sending the message. Please try again."
     },
     "Skills": {
         "title": "Skills"

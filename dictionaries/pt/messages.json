@@ -42,7 +42,7 @@
         "linkedin": "Conectar ao Linkedin"
     },
     "Footer": {
-        "p1": "2024 © Nathan Mota - Todos os direitos Reservados.",
+        "p1": "2025 © Nathan Mota - Todos os direitos Reservados.",
         "p2": "Desenvolvido com Next, TailwindCSS, React Icons e Shadcn.ui"
     },
     "Form": {
@@ -52,7 +52,11 @@
         "email-placeholder": "Seu melhor e-mail",
         "message": "Mensagem",
         "message-placeholder": "Escreva sua mensagem aqui...",
-        "button": "Enviar Mensagem"
+        "button": "Enviar Mensagem",
+        "toast-success-title": "Mensagem enviada!",
+        "toast-success-description": "Obrigado por entrar em contato. Responderei em breve!",
+        "toast-error-title": "Erro ao enviar",
+        "toast-error-description": "Ocorreu um erro ao enviar a mensagem. Tente novamente."
     },
     "Skills": {
         "title": "Habilidades"
