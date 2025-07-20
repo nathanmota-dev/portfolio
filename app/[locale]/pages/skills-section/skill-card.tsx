@@ -45,7 +45,7 @@ export default function SkillCard({ name, Icon, bgColor }: SkillCardProps) {
     };
 
     return (
-        <div className="group flex flex-col items-center p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-black/20 hover:shadow-lg transition-all duration-300 hover:scale-105">
+        <div className="group flex flex-col items-center p-4 rounded-lg border border-gray-200 dark:border-white bg-white dark:bg-black hover:shadow-lg transition-all duration-300 hover:scale-105">
             <div
                 className="mb-3 transition-colors duration-300"
                 onMouseEnter={(e: React.MouseEvent<HTMLDivElement>) => {

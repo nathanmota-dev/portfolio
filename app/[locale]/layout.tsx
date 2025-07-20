@@ -38,9 +38,9 @@ export default async function RootLayout({
       <head />
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased",
+          "min-h-screen bg-white font-sans antialiased",
           fontSans.variable,
-          "dark:bg-medium"
+          "dark:bg-black"
         )}
       >
         <NextIntlClientProvider messages={messages}>

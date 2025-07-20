@@ -55,7 +55,7 @@ export const FormSection = () => {
                     type="text"
                     name="name"
                     required
-                    className="bg-gray-200/70 dark:bg-gray-800/85 focus-visible:ring-emerald-500"
+                    className="bg-gray-200/70 dark:bg-[#141414] focus-visible:ring-emerald-500"
                     placeholder={t("name-placeholder")}
                 />
 
@@ -64,7 +64,7 @@ export const FormSection = () => {
                     type="email"
                     name="email"
                     required
-                    className="bg-gray-200/70 dark:bg-gray-800/85 focus-visible:ring-emerald-500"
+                    className="bg-gray-200/70 dark:bg-[#141414] focus-visible:ring-emerald-500"
                     placeholder={t("email-placeholder")}
                 />
 
@@ -72,7 +72,7 @@ export const FormSection = () => {
                 <Textarea
                     name="message"
                     required
-                    className="bg-gray-200/70 dark:bg-gray-800/85 size-48 w-full focus-visible:ring-emerald-500"
+                    className="bg-gray-200/70 dark:bg-[#141414] size-48 w-full focus-visible:ring-emerald-500"
                     placeholder={t("message-placeholder")}
                 />
 

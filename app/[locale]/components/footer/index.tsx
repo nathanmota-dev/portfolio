@@ -24,7 +24,7 @@ export const Footer = () => {
     const t = useTranslations("Footer");
 
     return (
-        <footer className="h-full w-full bg-gray-200 dark:bg-gray-800/85 p-10">
+        <footer className="h-full w-full bg-gray-200 dark:bg-[#141414] p-10">
             <div className="flex flex-col justify-center items-center text-center h-full space-y-2">
                 <div className="flex space-x-4 pb-2">
                     {socialMediaIcons.map((item, index) => (

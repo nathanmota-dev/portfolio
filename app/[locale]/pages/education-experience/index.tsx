@@ -52,7 +52,7 @@ export const EducationExperience = () => {
     }, [locale]);
 
     return (
-        <div className="w-full bg-white dark:bg-black lg:pt-6 pb-8">
+        <div className="w-full bg-white dark:bg-black lg:pt-20 pb-12">
             <div className="text-center pb-10">
                 <h1 className="text-2xl md:text-3xl font-bold">{t("title")}</h1>
             </div>

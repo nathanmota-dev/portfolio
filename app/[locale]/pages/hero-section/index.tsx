@@ -57,7 +57,7 @@ export default function HeroSection() {
                                     <HiArrowNarrowRight size={18} />
                                 </Button>
                             </a>
-                            
+
                             <div className="text-2xl flex items-center gap-3 mt-4 sm:mt-0">
                                 {contacts.map((contact, index) => (
                                     <a
@@ -82,7 +82,7 @@ export default function HeroSection() {
                 </div>
             </section>
             <div className="h-auto sm:h-[10vh] pb-6 sm:pb-0 bg-white dark:bg-black w-full sm:text-2xl flex justify-center items-center gap-3 font-bold text-gray-800 dark:text-gray-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
-                <a className="flex gap-x-2" href="#about-section">
+                <a className="flex gap-x-2" href="#skills-section">
                     <BiMouse className="animate-bounce" />
                     <h2 className="sm:text-lg">{t("rolar")}</h2>
                     <FaRegArrowAltCircleDown className="animate-bounce" />

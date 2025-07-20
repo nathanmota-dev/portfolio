@@ -15,9 +15,6 @@ export default function Home() {
             <div id="hero-section">
                 <HeroSection />
             </div>
-            <div id="about-section">
-                <AboutSection />
-            </div>
             <div id="skills-section">
                 <SkillsSection />
             </div>

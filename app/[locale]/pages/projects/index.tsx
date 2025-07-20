@@ -10,7 +10,7 @@ export const ProjectsSection = () => {
     const t = useTranslations("Projects");
 
     return (
-        <div className="bg-gray-100 dark:bg-[#141414] h-auto pb-10 sm:pb-0 justify-center bg-center text-center ">
+        <div className="bg-gray-100 dark:bg-[#141414] h-auto pb-10 sm:pb-0 justify-center bg-center text-center pt-10">
             <h1 className="sm:text-3xl text-2xl pt-10 font-bold">{t("title")}</h1>
             <p className="pt-6">{t("description")}</p>
             <div className="sm:text-lg text-sm mt-8 space-x-0.5">

@@ -11,7 +11,7 @@ type CardsBadgeProps = {
 
 export const CardsBadge = ({ icon, title, subtitle, action, link }: CardsBadgeProps) => {
     return (
-        <div className="bg-gray-200/70 dark:bg-gray-800/85 p-6 rounded-lg w-[290px]">
+        <div className="bg-gray-200/70 dark:bg-[#141414] p-6 rounded-lg w-[290px]">
             <div className="text-5xl text-emerald-400 flex justify-center">
                 {icon}
             </div>

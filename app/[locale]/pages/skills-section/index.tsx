@@ -1,7 +1,7 @@
 "use client"
 
 import SkillCard from "./skill-card"
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaDocker, FaPhp, FaPython, FaAws, FaJava } from "react-icons/fa"
+import { FaJs, FaReact, FaNodeJs, FaDocker, FaAws, FaJava } from "react-icons/fa"
 import {
     SiTypescript,
     SiNextdotjs,
@@ -43,7 +43,7 @@ const backEndSkills = [
 
 export default function SkillsSection() {
     return (
-        <div className="bg-white dark:bg-black">
+        <div className="bg-gray-100 dark:bg-[#141414] pt-10 pb-20">
             <section className="py-16 px-4 max-w-6xl mx-auto">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold ">Skills</h2>
